@@ -1,0 +1,108 @@
+{
+  "author": "Samuel B. Fernandes",
+  "scholar_id": "aR0shJYAAAAJ",
+  "scholar_url": "https://scholar.google.com/citations?user=aR0shJYAAAAJ&hl=en",
+  "updated": "2026-06-12",
+  "source": "manual (initial seed)",
+  "metrics": { "citations": 1048, "h_index": 15, "i10_index": 17 },
+  "publications": [
+    {
+      "title": "Nonlinear genomic selection index accelerates multi-trait crop improvement",
+      "authors": "J. J. Cerón-Rojas, O. A. Montesinos-López, A. Montesinos-López, P. Vitale, P. Pérez-Rodríguez, S. B. Fernandes, R. Ortiz, J. Crossa",
+      "venue": "Nature Communications",
+      "year": 2026,
+      "url": "https://doi.org/10.1038/s41467-026-69890-3"
+    },
+    {
+      "title": "Optimizing population simulations to accurately parallel empirical data for digital breeding",
+      "authors": "M. J. Burns, R. della Coletta, S. B. Fernandes, M. O. Bohn, A. E. Lipka, C. N. Hirsch",
+      "venue": "Crop Science",
+      "year": 2026,
+      "url": "https://doi.org/10.1002/csc2.70247"
+    },
+    {
+      "title": "High-throughput screen of NPQ in sorghum shows highly polygenic architecture of photoprotection",
+      "authors": "R. L. Vath, S. B. Fernandes, B. Monier, K. Głowacka, J. Walter, A. E. Lipka, J. Ferguson, C. J. Bernacchi, T. Pederson, J. Kromdijk",
+      "venue": "Plant-Environment Interactions",
+      "year": 2026,
+      "url": "https://doi.org/10.1002/pei3.70114"
+    },
+    {
+      "title": "Genomic prediction and association mapping of early-season flood tolerance in soybean",
+      "authors": "C. C. Vieira, C. Wu, D. Harrison, R. Marmo, L. Florez-Palacios, A. Acuna, D. Rogers, S. B. Fernandes, I. Fernandes, G. Shannon, H. Ye, H. T. Nguyen",
+      "venue": "The Plant Genome",
+      "year": 2025,
+      "url": "https://doi.org/10.1002/tpg2.70128"
+    },
+    {
+      "title": "Improving multi-trait genomic prediction efficiency through the incorporation of synthetic traits selected based on co-heritability",
+      "authors": "A. Upadhyay, R. Azam, M. Yuan, S. Ivanovic, J. N. Ferguson, R. E. Paul, O. Koyejo, M. El-Kebir, A. E. Lipka, A. D. B. Leakey, S. B. Fernandes",
+      "venue": "bioRxiv",
+      "year": 2025,
+      "url": "https://doi.org/10.1101/2025.06.23.661178"
+    },
+    {
+      "title": "Using machine learning to combine genetic and environmental data for maize grain yield predictions across multi-environment trials",
+      "authors": "I. K. Fernandes, C. C. Vieira, K. O. G. Dias, S. B. Fernandes",
+      "venue": "Theoretical and Applied Genetics",
+      "year": 2024,
+      "url": "https://doi.org/10.1007/s00122-024-04687-w"
+    },
+    {
+      "title": "Beat the heat: Breeding, genomics, and gene editing for high nighttime temperature tolerance in rice",
+      "authors": "V. Srivastava, C. de Guzman, S. B. Fernandes",
+      "venue": "Current Opinion in Plant Biology",
+      "year": 2024,
+      "url": "https://doi.org/10.1016/j.pbi.2024.102659"
+    },
+    {
+      "title": "Realized genetic gain with reciprocal recurrent selection in a Eucalyptus breeding program",
+      "authors": "S. F. S. Chaves, L. A. S. Dias, R. S. Alves, F. M. Ferreira, M. S. Araújo, M. D. V. Resende, E. K. Takahashi, J. E. Souza, F. P. Leite, S. B. Fernandes, K. O. G. Dias",
+      "venue": "Tree Genetics & Genomes",
+      "year": 2024,
+      "url": "https://doi.org/10.1007/s11295-024-01678-2"
+    },
+    {
+      "title": "Genome-wide association insights into the genomic regions controlling vegetative and oil production traits in Acrocomia aculeata",
+      "authors": "E. G. O. Couto, J. A. Morales-Marroquín, A. Alves-Pereira, S. B. Fernandes, C. A. Colombo, J. A. de Azevedo-Filho, C. R. L. Carvalho, M. I. Zucchi",
+      "venue": "BMC Plant Biology",
+      "year": 2024,
+      "url": "https://doi.org/10.1186/s12870-024-05805-y"
+    },
+    {
+      "title": "Rethinking Bayesian optimization with Gaussian processes: Insights from hyperspectral trait search",
+      "authors": "R. Azam, S. Koyejo, S. B. Fernandes, M. El-Kebir, A. D. B. Leakey, A. Lipka",
+      "venue": "NeurIPS 2023 AI for Science Workshop",
+      "year": 2023,
+      "url": "https://openreview.net/forum?id=4ePJjCP14u"
+    },
+    {
+      "title": "Importance of genetic architecture in marker selection decisions for genomic prediction",
+      "authors": "R. della Coletta, S. B. Fernandes, P. J. Monnahan, M. A. Mikel, M. O. Bohn, A. E. Lipka, C. N. Hirsch",
+      "venue": "Theoretical and Applied Genetics",
+      "year": 2023,
+      "url": "https://doi.org/10.1007/s00122-023-04469-w"
+    },
+    {
+      "title": "Assessment of two statistical approaches for variance genome-wide association studies in plants",
+      "authors": "M. D. Murphy, S. B. Fernandes, G. Morota, A. E. Lipka",
+      "venue": "Heredity",
+      "year": 2022,
+      "url": "https://doi.org/10.1038/s41437-022-00541-1"
+    },
+    {
+      "title": "A multi-trait multi-locus stepwise approach for conducting GWAS on correlated traits",
+      "authors": "S. B. Fernandes, T. M. Casstevens, P. J. Bradbury, A. E. Lipka",
+      "venue": "The Plant Genome",
+      "year": 2022,
+      "url": "https://doi.org/10.1002/tpg2.20200"
+    },
+    {
+      "title": "simplePHENOTYPES: Simulation of pleiotropic, linked and epistatic phenotypes",
+      "authors": "S. B. Fernandes, A. E. Lipka",
+      "venue": "BMC Bioinformatics",
+      "year": 2020,
+      "url": "https://doi.org/10.1186/s12859-020-03804-y"
+    }
+  ]
+}

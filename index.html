@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FernandesLAB — Agricultural Statistics & Quantitative Genetics</title>
-  <meta name="description" content="The Fernandes Lab at the University of Arkansas — agricultural statistics, quantitative genetics, plant breeding, and machine learning.">
+  <title>FernandesLAB — Quantitative Genetics, Statistics & AI for Plant Breeding</title>
+  <meta name="description" content="The Fernandes Lab at the University of Arkansas — quantitative genetics, agricultural statistics, machine learning and AI for predictive plant breeding.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
@@ -12,50 +17,170 @@
   <!-- ================= HEADER (same on every page) ================= -->
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="index.html"><span class="logo">FL</span> FernandesLAB</a>
+      <a class="brand" href="index.html"><span class="logo"><img src="assets/img/logo.svg" alt="" width="21" height="21"></span> FernandesLAB</a>
       <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <button class="theme-toggle" type="button" aria-label="Switch to light mode">
+        <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+      </button>
       <nav class="nav">
         <a href="index.html" class="active">Home</a>
-        <a href="our-team.html">Our Team</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="research.html">Research</a>
+        <a href="about.html">About</a>
+        <a href="our-team.html">Team</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <!-- ================= HERO ================= -->
-  <!-- To use your own background image, drop it at assets/img/hero-bg.jpg and
-       change the line below to:
-       <section class="hero" style="--hero:url('assets/img/hero-bg.jpg')"> -->
+  <!-- The AI-network motif behind this hero is assets/img/ai-net.svg (see CSS .hero).
+       To layer your own field/lab photo on top, drop it at assets/img/hero-bg.jpg and
+       set: <section class="hero" style="--hero:url('assets/img/hero-bg.jpg')"> -->
   <section class="hero">
     <div class="hero-inner">
-      <h1>FernandesLAB</h1>
-      <p>Agricultural statistics &amp; quantitative genetics — combining genomics,
-         environmental data, and machine learning to advance plant breeding.</p>
+      <h1>Predictive breeding, <span class="grad">powered by quantitative genetics &amp; AI</span></h1>
+      <p>We unite quantitative genetics, statistics, and artificial intelligence to make
+         plant breeding faster, more accurate, and more predictable across diverse environments.</p>
       <div class="hero-cta">
-        <a class="btn btn-light" href="our-team.html">Meet the Team</a>
-        <a class="btn btn-solid" href="research.html">Explore our Research</a>
+        <a class="btn btn-green" href="our-team.html">Meet the Team</a>
+        <a class="btn btn-light" href="about.html">About the Lab</a>
+      </div>
+    </div>
+    <a class="scroll-cue" href="#welcome" aria-label="Scroll down"></a>
+  </section>
+
+  <!-- ================= INTRO ================= -->
+  <section class="section" id="welcome">
+    <div class="wrap">
+      <div class="split">
+        <div class="reveal">
+          <span class="eyebrow">Welcome</span>
+          <h2 class="section-title">A research group at the intersection of statistics, genetics &amp; machine learning</h2>
+          <p class="lead">
+            We are a research group in the
+            <strong>Center for Agricultural Data Analytics (CADA)</strong> at the
+            University of Arkansas, led by Dr.&nbsp;Samuel&nbsp;B.&nbsp;Fernandes. We build the
+            statistical methods, predictive models, and open-source software that make plant
+            breeding faster and more predictable across diverse environments.
+          </p>
+          <div class="hero-cta" style="justify-content:flex-start;margin-top:26px;">
+            <a class="btn btn-solid" href="about.html">Our Mission</a>
+            <a class="btn btn-ghost" href="projects.html">What We Do</a>
+          </div>
+        </div>
+        <div class="media reveal">
+          <img src="assets/img/gallery-maize.jpg" alt="Field research"
+               onerror="this.src='assets/img/placeholder-photo.svg'">
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= INTRO ================= -->
+  <!-- ================= RESEARCH THEMES ================= -->
+  <section class="section alt">
+    <div class="wrap">
+      <div class="section-head center reveal">
+        <span class="eyebrow">What we do</span>
+        <h2 class="section-title">Our research themes</h2>
+        <p class="lead">Four connected areas drive the questions we ask and the tools we build.</p>
+      </div>
+      <div class="features">
+        <div class="feature reveal">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 19V5m0 14h16M8 16l3-4 3 2 4-6"/></svg></div>
+          <h3>Statistics</h3>
+          <p>Mixed models and experimental design that turn noisy field trials into reliable insight.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M7 4v16M17 4v16M7 8h10M7 16h10M9 4a3 3 0 0 0 6 0M9 20a3 3 0 0 1 6 0"/></svg></div>
+          <h3>Quantitative Genetics</h3>
+          <p>Genomic prediction and association mapping to connect genotype with phenotype.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v6m0 0a4 4 0 0 0-4 4v8h8v-8a4 4 0 0 0-4-4zM5 14H3m18 0h-2"/></svg></div>
+          <h3>Plant Breeding</h3>
+          <p>Faster, more predictable selection across soybean, rice, maize, and sorghum programs.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
+          <h3>Machine Learning &amp; AI</h3>
+          <p>Deep learning and enviromics that fuse genetic and environmental data for prediction.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= MISSION STRIP ================= -->
+  <section class="section tight">
+    <div class="wrap">
+      <div class="callout reveal">
+        <span class="pill" style="background:rgba(255,255,255,.14);color:#eafaf4;border-color:rgba(255,255,255,.25)">Our mission</span>
+        <h2 style="margin-top:14px;">Better decisions from the data we already have</h2>
+        <p>We develop quantitative-genetics and AI methods that help breeders predict the performance
+           of any genotype in any environment — shortening breeding cycles and strengthening food security.</p>
+        <a class="btn btn-light" href="about.html">Read our mission, vision &amp; goals</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LATEST NEWS ================= -->
   <section class="section">
     <div class="wrap">
-      <span class="eyebrow">University of Arkansas Division of Agriculture</span>
-      <h2 class="section-title">Welcome</h2>
-      <p style="max-width:760px;font-size:1.08rem;">
-        We are a research group in the
-        <strong>Center for Agricultural Data Analytics (CADA)</strong> at the
-        University of Arkansas Division of Agriculture, led by
-        Dr.&nbsp;Samuel&nbsp;B.&nbsp;Fernandes. Our work sits at the intersection of
-        statistics, genetics, and machine learning, with the goal of making plant
-        breeding faster and more predictable across diverse environments.
-      </p>
-      <div class="hero-cta" style="justify-content:flex-start;margin-top:24px;">
-        <a class="btn btn-solid" href="our-team.html">Our Team</a>
-        <a class="btn btn-green" href="research.html">Latest Research</a>
+      <div class="section-head reveal">
+        <span class="eyebrow">Lab news</span>
+        <h2 class="section-title">What's happening</h2>
+      </div>
+
+      <article class="news-item reveal">
+        <div>
+          <h3>Carlos Attends the 30th SISG</h3>
+          <p class="date">Jun. 12, 2025</p>
+          <p>Carlos, a U of A master's student in statistics and analytics researching plant
+             breeding through the Center for Agricultural Data Analytics, attended the 30th Bruce
+             Weir Summer Institute in Statistical Genetics (SISG) at the Georgia Institute of
+             Technology, sharpening his work in genomic prediction and GWAS.</p>
+        </div>
+        <img src="assets/img/news-carlos-sisg.jpg" alt="Carlos at the 30th SISG"
+             onerror="this.src='assets/img/placeholder-photo.svg'">
+      </article>
+
+      <article class="news-item reveal">
+        <div>
+          <h3>Igor Fernandes Uses Satellite Data to Win International Contest</h3>
+          <p class="date">Jan. 14, 2025</p>
+          <p>Igor Fernandes placed first in a contest sponsored by the Sixth International Machine
+             Learning for Cyber-Agricultural Systems workshop, combining satellite data with
+             machine learning for crop prediction.</p>
+          <p><a href="publications.html">See our recent work …</a></p>
+        </div>
+        <img src="assets/img/news-igor-contest.jpg" alt="Igor Fernandes"
+             onerror="this.src='assets/img/placeholder-photo.svg'">
+      </article>
+    </div>
+  </section>
+
+  <!-- ================= STATS ================= -->
+  <section class="section tight">
+    <div class="wrap">
+      <div class="stats reveal">
+        <div class="stat"><div class="num">1,000<span class="gold">+</span></div><div class="lbl">Citations</div></div>
+        <div class="stat"><div class="num">40<span class="gold">+</span></div><div class="lbl">Publications</div></div>
+        <div class="stat"><div class="num">$2.8M<span class="gold">+</span></div><div class="lbl">Research funding</div></div>
+        <div class="stat"><div class="num">9<span class="gold">+</span></div><div class="lbl">Team members</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= JOIN CALLOUT ================= -->
+  <section class="section">
+    <div class="wrap">
+      <div class="callout reveal">
+        <h2>Interested in joining the lab?</h2>
+        <p>We're always looking for curious people with backgrounds in statistics, genetics,
+           computer science, or agronomy. Reach out if that sounds like you.</p>
+        <a class="btn btn-green" href="contact.html">Get in touch</a>
       </div>
     </div>
   </section>
@@ -63,9 +188,36 @@
   <!-- ================= FOOTER (same on every page) ================= -->
   <footer class="site-footer">
     <div class="wrap">
-      <strong>FernandesLAB</strong> · University of Arkansas Division of Agriculture · Fayetteville, AR<br>
-      <a href="mailto:samuelbf@uark.edu">samuelbf@uark.edu</a> · 479-575-5677
-      <p class="disclaimer">Disclaimer: The materials on this website are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.</p>
+      <div class="cols">
+        <div>
+          <a class="brand" href="index.html"><span class="logo"><img src="assets/img/logo.svg" alt="" width="21" height="21"></span> FernandesLAB</a>
+          <p>Quantitative genetics, agricultural statistics &amp; AI at the University of
+             Arkansas Division of Agriculture.</p>
+        </div>
+        <div>
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our-team.html">Team</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:samuelbf@uark.edu">samuelbf@uark.edu</a></li>
+            <li>479-575-5677</li>
+            <li>Fayetteville, AR</li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        © <span id="year">2026</span> FernandesLAB · University of Arkansas Division of Agriculture
+        <p class="disclaimer">Disclaimer: The materials on this website are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.</p>
+      </div>
     </div>
   </footer>
 

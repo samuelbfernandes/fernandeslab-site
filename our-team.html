@@ -1,36 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Team — FernandesLAB</title>
   <meta name="description" content="Meet the FernandesLAB team: principal investigator, postdoctoral fellows, PhD and master students, and interns.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="index.html"><span class="logo">FL</span> FernandesLAB</a>
+      <a class="brand" href="index.html"><span class="logo"><img src="assets/img/logo.svg" alt="" width="21" height="21"></span> FernandesLAB</a>
       <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <button class="theme-toggle" type="button" aria-label="Switch to light mode">
+        <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
+        <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
+      </button>
       <nav class="nav">
         <a href="index.html">Home</a>
-        <a href="our-team.html" class="active">Our Team</a>
-        <a href="gallery.html">Gallery</a>
-        <a href="research.html">Research</a>
+        <a href="about.html">About</a>
+        <a href="our-team.html" class="active">Team</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
-  <section class="banner"><h1>Our Team</h1></section>
+  <section class="banner">
+    <span class="kicker">The people behind the work</span>
+    <h1>Our Team</h1>
+    <p>A diverse group of statisticians, geneticists, and computer scientists working across plant breeding.</p>
+  </section>
 
   <!-- ===================== PRINCIPAL INVESTIGATOR ===================== -->
   <section class="section">
     <div class="wrap">
       <h2 class="section-title">Principal Investigator</h2>
 
-      <article class="person">
+      <article class="person reveal">
         <img class="photo" src="assets/team/samuel.jpg" alt="Samuel B. Fernandes"
              onerror="this.src='assets/img/placeholder-person.svg'">
         <div>
@@ -46,13 +60,13 @@
 
           <h4>Research Interests</h4>
           <ul>
-            <li>Statistics</li><li>Genetics</li><li>Plant Breeding</li><li>Machine Learning</li>
+            <li>Quantitative Genetics</li><li>Statistics</li><li>Plant Breeding</li><li>Machine Learning &amp; AI</li>
           </ul>
 
           <h4>Education</h4>
           <div class="edu">
-            <div>D.S. in Genetics and Plant Improvement — Federal University of Lavras (Brazil)</div>
-            <div>M.S. in Genetics and Plant Improvement — Federal University of Lavras (Brazil)</div>
+            <div>Ph.D. in Genetics and Plant Breeding — Federal University of Lavras (Brazil)</div>
+            <div>M.S. in Genetics and Plant Breeding — Federal University of Lavras (Brazil)</div>
             <div>B.S. in Agronomy — University of Brasília (Brazil)</div>
           </div>
 
@@ -73,7 +87,7 @@
     <div class="wrap">
       <h2 class="section-title">Post Doctoral Fellows</h2>
 
-      <article class="person">
+      <article class="person reveal">
         <img class="photo" src="assets/team/melina.jpg" alt="Melina Prado"
              onerror="this.src='assets/img/placeholder-person.svg'">
         <div>
@@ -109,7 +123,7 @@
     <div class="wrap">
       <h2 class="section-title">PhD Students</h2>
 
-      <article class="person">
+      <article class="person reveal">
         <img class="photo" src="assets/team/elias.jpg" alt="Elias Z. Mohellebi"
              onerror="this.src='assets/img/placeholder-person.svg'">
         <div>
@@ -149,7 +163,7 @@
 
       <div class="grid grid-3">
 
-        <article class="card">
+        <article class="card reveal">
           <img class="photo" src="assets/team/julia.jpg" alt="Julia Gonçalves Batista"
                onerror="this.src='assets/img/placeholder-person.svg'">
           <h3>Julia Gonçalves Batista</h3>
@@ -165,7 +179,7 @@
           </div>
         </article>
 
-        <article class="card">
+        <article class="card reveal">
           <img class="photo" src="assets/team/carlos.jpg" alt="Carlos Ramos Bisinotto"
                onerror="this.src='assets/img/placeholder-person.svg'">
           <h3>Carlos Ramos Bisinotto</h3>
@@ -181,7 +195,7 @@
           </div>
         </article>
 
-        <article class="card">
+        <article class="card reveal">
           <img class="photo" src="assets/team/soni.png" alt="Soni Pinjala"
                onerror="this.src='assets/img/placeholder-person.svg'">
           <h3>Soni Pinjala</h3>
@@ -206,7 +220,7 @@
     <div class="wrap">
       <h2 class="section-title">Interns</h2>
 
-      <article class="person">
+      <article class="person reveal">
         <img class="photo" src="assets/team/joao.jpg" alt="João Pedro Neigri Heleno"
              onerror="this.src='assets/img/placeholder-person.svg'">
         <div>
@@ -226,11 +240,10 @@
   <!-- ===================== JOIN OUR TEAM ===================== -->
   <section class="section alt">
     <div class="wrap">
-      <h2 class="section-title">Join Our Team</h2>
-      <div class="callout">
-        <p style="margin-top:0;font-size:1.05rem;">
-          Please reach out if you think your background fits our needs.
-        </p>
+      <div class="callout reveal">
+        <h2>Join Our Team</h2>
+        <p>Please reach out if you think your background fits our needs — we welcome
+           statisticians, geneticists, computer scientists, and agronomists.</p>
         <a class="btn btn-green" href="contact.html">Join us</a>
       </div>
     </div>
@@ -249,7 +262,7 @@
 
       <div class="grid grid-3" style="margin-top:30px;">
 
-        <article class="card">
+        <article class="card reveal">
           <img class="photo" src="assets/team/ashmita.jpg" alt="Ashmita Upadhyay"
                onerror="this.src='assets/img/placeholder-person.svg'">
           <h3>Ashmita Upadhyay</h3>
@@ -262,7 +275,7 @@
           </ul>
         </article>
 
-        <article class="card">
+        <article class="card reveal">
           <img class="photo" src="assets/team/matthew.jpg" alt="Matthew Murphy"
                onerror="this.src='assets/img/placeholder-person.svg'">
           <h3>Matthew Murphy</h3>
@@ -277,7 +290,7 @@
           </ul>
         </article>
 
-        <article class="card">
+        <article class="card reveal">
           <img class="photo" src="assets/team/igor.jpg" alt="Igor K. Fernandes"
                onerror="this.src='assets/img/placeholder-person.svg'">
           <h3>Igor K. Fernandes</h3>
@@ -298,9 +311,36 @@
 
   <footer class="site-footer">
     <div class="wrap">
-      <strong>FernandesLAB</strong> · University of Arkansas Division of Agriculture · Fayetteville, AR<br>
-      <a href="mailto:samuelbf@uark.edu">samuelbf@uark.edu</a> · 479-575-5677
-      <p class="disclaimer">Disclaimer: The materials on this website are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.</p>
+      <div class="cols">
+        <div>
+          <a class="brand" href="index.html"><span class="logo"><img src="assets/img/logo.svg" alt="" width="21" height="21"></span> FernandesLAB</a>
+          <p>Agricultural statistics &amp; quantitative genetics at the University of
+             Arkansas Division of Agriculture.</p>
+        </div>
+        <div>
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="our-team.html">Team</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <ul>
+            <li><a href="mailto:samuelbf@uark.edu">samuelbf@uark.edu</a></li>
+            <li>479-575-5677</li>
+            <li>Fayetteville, AR</li>
+          </ul>
+        </div>
+      </div>
+      <div class="legal">
+        © <span id="year">2026</span> FernandesLAB · University of Arkansas Division of Agriculture
+        <p class="disclaimer">Disclaimer: The materials on this website are not endorsed, approved, sponsored, or provided by or on behalf of the University of Arkansas, Fayetteville.</p>
+      </div>
     </div>
   </footer>
 
