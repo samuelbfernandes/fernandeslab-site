@@ -23,14 +23,60 @@
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
       <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/our-team">Team</a>
-        <a href="/teaching" class="active">Teaching</a>
-        <a href="/projects">Projects</a>
-        <a href="/publications">Publications</a>
+        <div class="nav-item">
+          <a href="/">Home</a>
+          <div class="submenu">
+            <a href="/#welcome">Welcome</a>
+            <a href="/#research">Research themes</a>
+            <a href="/#news">Lab news</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/about">About</a>
+          <div class="submenu">
+            <a href="/about#overview">Overview</a>
+            <a href="/about#mission-vision">Mission &amp; Vision</a>
+            <a href="/about#goals">Goals</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/our-team">Team</a>
+          <div class="submenu">
+            <a href="/our-team#openings">Join us</a>
+            <a href="/our-team#pi">Principal Investigator</a>
+            <a href="/our-team#postdocs">Postdocs</a>
+            <a href="/our-team#phd">PhD Students</a>
+            <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#interns">Interns</a>
+            <a href="/our-team#alumni">Alumni</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/teaching" class="active">Teaching</a>
+          <div class="submenu">
+            <a href="/teaching#philosophy">Teaching philosophy</a>
+            <a href="/teaching#courses">Courses</a>
+            <a href="/teaching#mentoring">Mentoring</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/projects">Projects</a>
+          <div class="submenu">
+            <a href="/projects#grants">Grants &amp; funding</a>
+            <a href="/projects#software">Software &amp; tools</a>
+            <a href="/projects#study-systems">Study systems</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/publications">Publications</a>
+          <div class="submenu">
+            <a href="/publications#metrics">Metrics</a>
+            <a href="/publications#recent">Recent publications</a>
+          </div>
+        </div>
         <a href="/contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
@@ -45,7 +91,7 @@
     <div class="wrap">
       <div class="prose reveal">
         <span class="eyebrow">Teaching philosophy</span>
-        <h2 class="section-title">Statistics you can actually run</h2>
+        <h2 class="section-title" id="philosophy">Statistics you can actually run</h2>
         <p class="lead">
           Our teaching pairs sound statistical reasoning with hands-on, reproducible computing.
           Students learn to design experiments, analyze real agricultural data, and write code
@@ -61,7 +107,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">Courses</span>
-        <h2 class="section-title">Courses taught</h2>
+        <h2 class="section-title" id="courses">Courses taught</h2>
         <p class="lead">Graduate courses in statistics and statistical computing for the agricultural sciences.</p>
       </div>
 
@@ -93,7 +139,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">Mentoring</span>
-        <h2 class="section-title">Mentoring at a glance</h2>
+        <h2 class="section-title" id="mentoring">Mentoring at a glance</h2>
         <p class="lead">Advising students and researchers across statistics, genetics, and computer science.</p>
       </div>
       <div class="stats reveal">

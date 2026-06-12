@@ -22,14 +22,60 @@
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
       <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/our-team" class="active">Team</a>
-        <a href="/teaching">Teaching</a>
-        <a href="/projects">Projects</a>
-        <a href="/publications">Publications</a>
+        <div class="nav-item">
+          <a href="/">Home</a>
+          <div class="submenu">
+            <a href="/#welcome">Welcome</a>
+            <a href="/#research">Research themes</a>
+            <a href="/#news">Lab news</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/about">About</a>
+          <div class="submenu">
+            <a href="/about#overview">Overview</a>
+            <a href="/about#mission-vision">Mission &amp; Vision</a>
+            <a href="/about#goals">Goals</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/our-team" class="active">Team</a>
+          <div class="submenu">
+            <a href="/our-team#openings">Join us</a>
+            <a href="/our-team#pi">Principal Investigator</a>
+            <a href="/our-team#postdocs">Postdocs</a>
+            <a href="/our-team#phd">PhD Students</a>
+            <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#interns">Interns</a>
+            <a href="/our-team#alumni">Alumni</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/teaching">Teaching</a>
+          <div class="submenu">
+            <a href="/teaching#philosophy">Teaching philosophy</a>
+            <a href="/teaching#courses">Courses</a>
+            <a href="/teaching#mentoring">Mentoring</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/projects">Projects</a>
+          <div class="submenu">
+            <a href="/projects#grants">Grants &amp; funding</a>
+            <a href="/projects#software">Software &amp; tools</a>
+            <a href="/projects#study-systems">Study systems</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/publications">Publications</a>
+          <div class="submenu">
+            <a href="/publications#metrics">Metrics</a>
+            <a href="/publications#recent">Recent publications</a>
+          </div>
+        </div>
         <a href="/contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
@@ -44,9 +90,10 @@
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">Join us</span>
-        <h2 class="section-title">Open positions</h2>
-        <p class="lead">Current openings in the lab. We also welcome inquiries from prospective
-           graduate students and visiting scholars — see <a href="/contact">Contact</a>.</p>
+        <h2 class="section-title">Join our team</h2>
+        <p class="lead">We welcome statisticians, geneticists, computer scientists, and
+           agronomists. Below are our current openings — prospective graduate students and
+           visiting scholars are also encouraged to <a href="/contact">get in touch</a>.</p>
       </div>
 
       <div class="grant feature-grant reveal">
@@ -66,7 +113,7 @@
   <!-- ===================== PRINCIPAL INVESTIGATOR ===================== -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">Principal Investigator</h2>
+      <h2 class="section-title" id="pi">Principal Investigator</h2>
 
       <article class="person reveal">
         <img class="photo" src="assets/team/samuel.jpg" alt="Samuel B. Fernandes"
@@ -106,7 +153,7 @@
   <!-- ===================== POST DOCTORAL FELLOWS ===================== -->
   <section class="section alt">
     <div class="wrap">
-      <h2 class="section-title">Post Doctoral Fellows</h2>
+      <h2 class="section-title" id="postdocs">Post Doctoral Fellows</h2>
 
       <article class="person reveal">
         <img class="photo" src="assets/team/melina.jpg" alt="Melina Prado"
@@ -115,7 +162,7 @@
           <h3>Melina Prado</h3>
           <p class="role">Post Doctoral Fellow</p>
           <p class="affil">University of Arkansas Division of Agriculture (UADA | AES)</p>
-          <p class="meta"><strong>Email:</strong> <a href="mailto:melinapr@uark.edu">melinapr@uark.edu</a></p>
+          <p class="meta"><strong>Email:</strong> melinapr [at] uark [dot] edu</p>
 
           <h4>Research Interests</h4>
           <ul>
@@ -130,10 +177,6 @@
             <div>MBA — "Luiz de Queiroz" College of Agriculture (Brazil)</div>
             <div>B.S. in Biotechnological Engineering — "Júlio de Mesquita Filho" São Paulo State University (Brazil)</div>
           </div>
-
-          <div class="socials">
-            <a href="mailto:melinapr@uark.edu" aria-label="Email" title="Email"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L4 6v12h16V6l-8 5z"/></svg></a>
-          </div>
         </div>
       </article>
     </div>
@@ -142,7 +185,7 @@
   <!-- ===================== PhD STUDENTS ===================== -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">PhD Students</h2>
+      <h2 class="section-title" id="phd">PhD Students</h2>
 
       <article class="person reveal">
         <img class="photo" src="assets/team/elias.jpg" alt="Elias Z. Mohellebi"
@@ -152,7 +195,7 @@
           <p class="role">Research Technician</p>
           <p class="affil">University of Arkansas Division of Agriculture (UADA)</p>
           <p class="meta"><strong>Phone:</strong> 215-934-9601</p>
-          <p class="meta"><strong>Email:</strong> <a href="mailto:ezmo@uark.edu">ezmo@uark.edu</a></p>
+          <p class="meta"><strong>Email:</strong> ezmo [at] uark [dot] edu</p>
 
           <h4>Research Interests</h4>
           <ul>
@@ -168,10 +211,6 @@
             <div>M.S. in Mechanical Engineering (Energetics) — University of Tizi Ouzou (Algeria)</div>
             <div>B.S. in Mechanical Engineering — University of Tizi Ouzou (Algeria)</div>
           </div>
-
-          <div class="socials">
-            <a href="mailto:ezmo@uark.edu" aria-label="Email" title="Email"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L4 6v12h16V6l-8 5z"/></svg></a>
-          </div>
         </div>
       </article>
     </div>
@@ -180,7 +219,7 @@
   <!-- ===================== MASTER STUDENTS ===================== -->
   <section class="section alt">
     <div class="wrap">
-      <h2 class="section-title">Master Students</h2>
+      <h2 class="section-title" id="masters">Master Students</h2>
 
       <div class="grid grid-3">
 
@@ -190,14 +229,11 @@
           <h3>Julia Gonçalves Batista</h3>
           <p class="meta"><strong>Major:</strong> Statistics and Analytics</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2027</p>
-          <p class="meta"><strong>Email:</strong> <a href="mailto:jg329@uark.edu">jg329@uark.edu</a></p>
+          <p class="meta"><strong>Email:</strong> jg329 [at] uark [dot] edu</p>
           <h4>Research Interests</h4>
           <ul><li>Data Analysis</li><li>Deep Learning</li><li>Machine Learning</li><li>Genomic Prediction</li></ul>
           <h4>Education</h4>
           <div class="edu"><div>B.S. in Chemical Engineering — Paraná Federal University of Technology (Brazil)</div></div>
-          <div class="socials">
-            <a href="mailto:jg329@uark.edu" aria-label="Email" title="Email"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L4 6v12h16V6l-8 5z"/></svg></a>
-          </div>
         </article>
 
         <article class="card reveal">
@@ -206,14 +242,11 @@
           <h3>Carlos Ramos Bisinotto</h3>
           <p class="meta"><strong>Major:</strong> Statistics and Analytics</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2026</p>
-          <p class="meta"><strong>Email:</strong> <a href="mailto:cer049@uark.edu">cer049@uark.edu</a></p>
+          <p class="meta"><strong>Email:</strong> cer049 [at] uark [dot] edu</p>
           <h4>Research Interests</h4>
           <ul><li>Deep Learning</li><li>Machine Learning</li><li>Hyperspectral Data</li><li>Linear Mixed Models</li></ul>
           <h4>Education</h4>
           <div class="edu"><div>B.S. in Statistics — Federal University of Goiás (Brazil)</div></div>
-          <div class="socials">
-            <a href="mailto:cer049@uark.edu" aria-label="Email" title="Email"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L4 6v12h16V6l-8 5z"/></svg></a>
-          </div>
         </article>
 
         <article class="card reveal">
@@ -222,14 +255,11 @@
           <h3>Soni Pinjala</h3>
           <p class="meta"><strong>Major:</strong> Computer Science</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2027</p>
-          <p class="meta"><strong>Email:</strong> <a href="mailto:spinjala@uark.edu">spinjala@uark.edu</a></p>
+          <p class="meta"><strong>Email:</strong> spinjala [at] uark [dot] edu</p>
           <h4>Research Interests</h4>
           <ul><li>Deep Learning</li><li>Machine Learning</li><li>LLMs and AI Agents</li></ul>
           <h4>Education</h4>
           <div class="edu"><div>B.S. in Computer Science and Engineering — Amrita School of Engineering (India)</div></div>
-          <div class="socials">
-            <a href="mailto:spinjala@uark.edu" aria-label="Email" title="Email"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm10 7L4 6v12h16V6l-8 5z"/></svg></a>
-          </div>
         </article>
 
       </div>
@@ -239,7 +269,7 @@
   <!-- ===================== INTERNS ===================== -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">Interns</h2>
+      <h2 class="section-title" id="interns">Interns</h2>
 
       <article class="person reveal">
         <img class="photo" src="assets/team/joao.jpg" alt="João Pedro Neigri Heleno"
@@ -258,27 +288,13 @@
     </div>
   </section>
 
-  <!-- ===================== JOIN OUR TEAM ===================== -->
+  <!-- ===================== ALUMNI ===================== -->
   <section class="section alt">
     <div class="wrap">
-      <div class="callout reveal">
-        <h2>Join Our Team</h2>
-        <p>Please reach out if you think your background fits our needs — we welcome
-           statisticians, geneticists, computer scientists, and agronomists.</p>
-        <a class="btn btn-green" href="/contact">Join us</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== FORMER MEMBERS ===================== -->
-  <section class="section">
-    <div class="wrap">
-      <h2 class="section-title">First Steps Beyond Our Lab — Where Our Former Members Transitioned</h2>
+      <h2 class="section-title" id="alumni">Alumni &amp; Career Paths</h2>
       <p style="max-width:780px;">
-        The impact of our current and former members on the team is a daily inscription
-        in the history book of this group. Each member leaves a meaningful imprint on our
-        journey. In this section, we honor our former members and highlight the first
-        steps they took beyond our lab.
+        We're proud of everyone who has been part of the lab. Here we celebrate our former
+        members and the first steps they took beyond our group.
       </p>
 
       <div class="grid grid-3" style="margin-top:30px;">

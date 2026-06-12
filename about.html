@@ -23,14 +23,60 @@
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
       <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/about" class="active">About</a>
-        <a href="/our-team">Team</a>
-        <a href="/teaching">Teaching</a>
-        <a href="/projects">Projects</a>
-        <a href="/publications">Publications</a>
+        <div class="nav-item">
+          <a href="/">Home</a>
+          <div class="submenu">
+            <a href="/#welcome">Welcome</a>
+            <a href="/#research">Research themes</a>
+            <a href="/#news">Lab news</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/about" class="active">About</a>
+          <div class="submenu">
+            <a href="/about#overview">Overview</a>
+            <a href="/about#mission-vision">Mission &amp; Vision</a>
+            <a href="/about#goals">Goals</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/our-team">Team</a>
+          <div class="submenu">
+            <a href="/our-team#openings">Join us</a>
+            <a href="/our-team#pi">Principal Investigator</a>
+            <a href="/our-team#postdocs">Postdocs</a>
+            <a href="/our-team#phd">PhD Students</a>
+            <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#interns">Interns</a>
+            <a href="/our-team#alumni">Alumni</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/teaching">Teaching</a>
+          <div class="submenu">
+            <a href="/teaching#philosophy">Teaching philosophy</a>
+            <a href="/teaching#courses">Courses</a>
+            <a href="/teaching#mentoring">Mentoring</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/projects">Projects</a>
+          <div class="submenu">
+            <a href="/projects#grants">Grants &amp; funding</a>
+            <a href="/projects#software">Software &amp; tools</a>
+            <a href="/projects#study-systems">Study systems</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/publications">Publications</a>
+          <div class="submenu">
+            <a href="/publications#metrics">Metrics</a>
+            <a href="/publications#recent">Recent publications</a>
+          </div>
+        </div>
         <a href="/contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
@@ -45,7 +91,7 @@
     <div class="wrap">
       <div class="prose reveal">
         <span class="eyebrow">Overview</span>
-        <h2 class="section-title">Turning agricultural data into genetic gain</h2>
+        <h2 class="section-title" id="overview">Turning agricultural data into genetic gain</h2>
         <p class="lead">
           The Fernandes Lab is part of the <strong>Center for Agricultural Data Analytics (CADA)</strong>
           and the Department of Crop, Soil, and Environmental Sciences at the University of Arkansas,
@@ -68,7 +114,7 @@
   <!-- ===================== MISSION & VISION ===================== -->
   <section class="section alt">
     <div class="wrap">
-      <div class="duo">
+      <div class="duo" id="mission-vision">
         <div class="panel glow reveal">
           <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.6" fill="currentColor"/></svg></div>
           <h2>Mission</h2>
@@ -97,7 +143,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">Where we're headed</span>
-        <h2 class="section-title">Our goals</h2>
+        <h2 class="section-title" id="goals">Our goals</h2>
         <p class="lead">Concrete commitments that guide the projects we take on and the people we train.</p>
       </div>
 

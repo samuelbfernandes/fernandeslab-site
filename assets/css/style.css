@@ -160,6 +160,29 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 :root[data-theme="light"] .theme-toggle .ic-sun  { display: none; }
 :root[data-theme="light"] .theme-toggle .ic-moon { display: block; }
 
+/* Nav dropdowns — subsection shortcuts shown on hover */
+.nav-item { position: relative; display: flex; align-items: center; }
+.submenu {
+  position: absolute; top: 100%; left: 0; margin-top: 8px;
+  min-width: 212px; padding: 8px;
+  background: var(--card); border: 1px solid var(--line);
+  border-radius: 12px; box-shadow: var(--shadow-lg);
+  display: flex; flex-direction: column; gap: 2px; z-index: 60;
+  opacity: 0; visibility: hidden; transform: translateY(6px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s;
+}
+.submenu::before { content: ""; position: absolute; top: -8px; left: 0; right: 0; height: 8px; }
+.nav-item:hover > .submenu,
+.nav-item:focus-within > .submenu { opacity: 1; visibility: visible; transform: translateY(0); }
+.submenu a {
+  padding: 9px 12px; border-radius: 8px; font-size: .9rem; font-weight: 500;
+  color: var(--muted); white-space: nowrap;
+}
+.submenu a:hover { background: var(--bg-soft); color: var(--brand); }
+
+/* keep anchored sections clear of the sticky header */
+[id] { scroll-margin-top: 90px; }
+
 /* --------------------------------------------------------------- Hero */
 .hero {
   position: relative; isolation: isolate;
@@ -457,6 +480,15 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
   .nav a { padding: 13px 12px; }
   .nav a.active::after { display: none; }
   .nav-toggle { display: block; }
+  /* submenus become indented, always-visible sub-links on mobile */
+  .nav-item { display: block; }
+  .submenu {
+    position: static; opacity: 1; visibility: visible; transform: none;
+    box-shadow: none; border: 0; background: transparent;
+    margin: 0 0 4px; padding: 0 0 0 14px; min-width: 0;
+  }
+  .submenu::before { display: none; }
+  .submenu a { padding: 8px 12px; font-size: .9rem; }
   .person { grid-template-columns: 1fr; gap: 22px; padding: 24px; }
   .person .photo { max-width: 220px; }
   .person ul { columns: 1; }

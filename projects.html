@@ -23,14 +23,60 @@
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
       <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/our-team">Team</a>
-        <a href="/teaching">Teaching</a>
-        <a href="/projects" class="active">Projects</a>
-        <a href="/publications">Publications</a>
+        <div class="nav-item">
+          <a href="/">Home</a>
+          <div class="submenu">
+            <a href="/#welcome">Welcome</a>
+            <a href="/#research">Research themes</a>
+            <a href="/#news">Lab news</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/about">About</a>
+          <div class="submenu">
+            <a href="/about#overview">Overview</a>
+            <a href="/about#mission-vision">Mission &amp; Vision</a>
+            <a href="/about#goals">Goals</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/our-team">Team</a>
+          <div class="submenu">
+            <a href="/our-team#openings">Join us</a>
+            <a href="/our-team#pi">Principal Investigator</a>
+            <a href="/our-team#postdocs">Postdocs</a>
+            <a href="/our-team#phd">PhD Students</a>
+            <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#interns">Interns</a>
+            <a href="/our-team#alumni">Alumni</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/teaching">Teaching</a>
+          <div class="submenu">
+            <a href="/teaching#philosophy">Teaching philosophy</a>
+            <a href="/teaching#courses">Courses</a>
+            <a href="/teaching#mentoring">Mentoring</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/projects" class="active">Projects</a>
+          <div class="submenu">
+            <a href="/projects#grants">Grants &amp; funding</a>
+            <a href="/projects#software">Software &amp; tools</a>
+            <a href="/projects#study-systems">Study systems</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/publications">Publications</a>
+          <div class="submenu">
+            <a href="/publications#metrics">Metrics</a>
+            <a href="/publications#recent">Recent publications</a>
+          </div>
+        </div>
         <a href="/contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
@@ -45,7 +91,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">Funded research</span>
-        <h2 class="section-title">Grants &amp; funded projects</h2>
+        <h2 class="section-title" id="grants">Grants &amp; funded projects</h2>
         <p class="lead">Federal, commodity-board, and institutional support for our work, as principal
            investigator and co-investigator.</p>
       </div>
@@ -121,7 +167,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">Open-source software</span>
-        <h2 class="section-title">Software &amp; tools</h2>
+        <h2 class="section-title" id="software">Software &amp; tools</h2>
         <p class="lead">We build free, documented tools so the breeding and genetics community can
            use and extend our methods.</p>
       </div>
@@ -167,7 +213,7 @@
     <div class="wrap">
       <div class="section-head reveal">
         <span class="eyebrow">In the field</span>
-        <h2 class="section-title">Study systems</h2>
+        <h2 class="section-title" id="study-systems">Study systems</h2>
         <p class="lead">Our methods are grounded in real breeding programs across staple and specialty crops.</p>
       </div>
 

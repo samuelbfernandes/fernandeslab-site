@@ -3,18 +3,23 @@
 // ---------------------------------------------------------------------------
 
 // Mobile nav toggle
-document.addEventListener('click', function (e) {
-  var toggle = e.target.closest('.nav-toggle');
+function closeNav() {
   var nav = document.querySelector('.nav');
+  var t = document.querySelector('.nav-toggle');
+  if (nav) nav.classList.remove('open');
+  if (t) t.classList.remove('open');
+}
+document.addEventListener('click', function (e) {
+  var nav = document.querySelector('.nav');
+  var toggle = e.target.closest('.nav-toggle');
   if (toggle) {
     nav.classList.toggle('open');
     toggle.classList.toggle('open');
+  } else if (e.target.closest('.nav a')) {
+    // tapping any nav or submenu link jumps to the topic and closes the mobile menu
+    closeNav();
   } else if (!e.target.closest('.nav')) {
-    if (nav && nav.classList.contains('open')) {
-      nav.classList.remove('open');
-      var t = document.querySelector('.nav-toggle');
-      if (t) t.classList.remove('open');
-    }
+    if (nav && nav.classList.contains('open')) closeNav();
   }
 });
 

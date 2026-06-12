@@ -23,14 +23,60 @@
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
       <nav class="nav">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/our-team">Team</a>
-        <a href="/teaching">Teaching</a>
-        <a href="/projects">Projects</a>
-        <a href="/publications" class="active">Publications</a>
+        <div class="nav-item">
+          <a href="/">Home</a>
+          <div class="submenu">
+            <a href="/#welcome">Welcome</a>
+            <a href="/#research">Research themes</a>
+            <a href="/#news">Lab news</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/about">About</a>
+          <div class="submenu">
+            <a href="/about#overview">Overview</a>
+            <a href="/about#mission-vision">Mission &amp; Vision</a>
+            <a href="/about#goals">Goals</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/our-team">Team</a>
+          <div class="submenu">
+            <a href="/our-team#openings">Join us</a>
+            <a href="/our-team#pi">Principal Investigator</a>
+            <a href="/our-team#postdocs">Postdocs</a>
+            <a href="/our-team#phd">PhD Students</a>
+            <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#interns">Interns</a>
+            <a href="/our-team#alumni">Alumni</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/teaching">Teaching</a>
+          <div class="submenu">
+            <a href="/teaching#philosophy">Teaching philosophy</a>
+            <a href="/teaching#courses">Courses</a>
+            <a href="/teaching#mentoring">Mentoring</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/projects">Projects</a>
+          <div class="submenu">
+            <a href="/projects#grants">Grants &amp; funding</a>
+            <a href="/projects#software">Software &amp; tools</a>
+            <a href="/projects#study-systems">Study systems</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="/publications" class="active">Publications</a>
+          <div class="submenu">
+            <a href="/publications#metrics">Metrics</a>
+            <a href="/publications#recent">Recent publications</a>
+          </div>
+        </div>
         <a href="/contact">Contact</a>
       </nav>
+
     </div>
   </header>
 
@@ -43,7 +89,7 @@
   <!-- ===================== METRICS ===================== -->
   <section class="section tight">
     <div class="wrap">
-      <div class="stats reveal">
+      <div class="stats reveal" id="metrics">
         <div class="stat"><div class="num" id="m-citations">1,000<span class="gold">+</span></div><div class="lbl">Citations</div></div>
         <div class="stat"><div class="num" id="m-hindex">15</div><div class="lbl">h-index</div></div>
         <div class="stat"><div class="num" id="m-i10">17</div><div class="lbl">i10-index</div></div>
@@ -59,7 +105,7 @@
   <!-- ===================== RECENT PUBLICATIONS ===================== -->
   <section class="section">
     <div class="wrap">
-      <h2 class="section-title">Recent publications</h2>
+      <h2 class="section-title" id="recent">Recent publications</h2>
       <p class="lead" style="margin-bottom:10px;">A selection of recent peer-reviewed work — full citations and DOIs linked.</p>
       <p id="pub-updated" style="margin:0 0 30px;font-size:.92rem;color:var(--faint);display:none;"></p>
 
