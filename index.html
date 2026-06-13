@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Google Analytics GA4 — replace G-XXXXXXXXXX with your Measurement ID from analytics.google.com -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
 </head>
 <body>
 
@@ -30,6 +33,7 @@
             <a href="/#welcome">Welcome</a>
             <a href="/#research">Research themes</a>
             <a href="/#news">Lab news</a>
+            <a href="/#media">In the news</a>
           </div>
         </div>
         <div class="nav-item">
@@ -87,7 +91,7 @@
        set: <section class="hero" style="--hero:url('assets/img/hero-bg.jpg')"> -->
   <section class="hero">
     <div class="hero-inner">
-      <h1>Predictive breeding, <span class="grad">powered by quantitative genetics &amp; AI</span></h1>
+      <h1>Predictive breeding, <span class="grad">powered by quantitative genetics &amp; statistical learning</span></h1>
       <p>We unite quantitative genetics, statistics, and artificial intelligence to make
          plant breeding faster, more accurate, and more predictable across diverse environments.</p>
       <div class="hero-cta">
@@ -171,12 +175,12 @@
     </div>
   </section>
 
-  <!-- ================= LATEST NEWS ================= -->
-  <section class="section">
+  <!-- ================= NEWS & MEDIA ================= -->
+  <section class="section" id="news">
     <div class="wrap">
       <div class="section-head reveal">
-        <span class="eyebrow">Lab news</span>
-        <h2 class="section-title" id="news">What's happening</h2>
+        <span class="eyebrow">Lab news &amp; media</span>
+        <h2 class="section-title">What's happening</h2>
       </div>
 
       <article class="news-item reveal">
@@ -188,7 +192,7 @@
              Weir Summer Institute in Statistical Genetics (SISG) at the Georgia Institute of
              Technology, sharpening his work in genomic prediction and GWAS.</p>
         </div>
-        <img src="assets/img/news-carlos-sisg.jpg" alt="Carlos at the 30th SISG"
+        <img src="assets/img/carlos.png" alt="Carlos at the 30th SISG"
              onerror="this.src='assets/img/placeholder-photo.svg'">
       </article>
 
@@ -201,9 +205,35 @@
              machine learning for crop prediction.</p>
           <p><a href="/publications">See our recent work …</a></p>
         </div>
-        <img src="assets/img/news-igor-contest.jpg" alt="Igor Fernandes"
+        <img src="assets/img/igor.png" alt="Igor Fernandes"
              onerror="this.src='assets/img/placeholder-photo.svg'">
       </article>
+
+      <div class="section-head reveal" style="margin-top:56px;">
+        <span class="eyebrow">In the news</span>
+        <h3 class="section-title" id="media">Media &amp; press</h3>
+      </div>
+
+      <div class="pub reveal">
+        <a href="https://aaes.uada.edu/news/from-data-to-insights/" target="_blank" rel="noopener">From Data to Insights — Behind the Discovery</a>
+        <p class="authors">Arkansas Agricultural Experiment Station · video feature</p>
+      </div>
+      <div class="pub reveal">
+        <a href="https://www.youtube.com/watch?v=_TpjUryYQPs" target="_blank" rel="noopener">Dr. Samuel Fernandes: Statistical Models in Plant Breeding</a>
+        <p class="authors">The Crop Science Podcast Show · YouTube</p>
+      </div>
+      <div class="pub reveal">
+        <a href="https://aaes.uada.edu/news/fernandes-ffar-award/" target="_blank" rel="noopener">Fernandes Earns FFAR New Innovator Award</a>
+        <p class="authors">Arkansas Agricultural Experiment Station</p>
+      </div>
+      <div class="pub reveal">
+        <a href="https://news.uark.edu/articles/67890/crop-science-grad-students-win-asa-cssa-sssa-ag-hackathon-competition" target="_blank" rel="noopener">Crop Science Grad Students Win ASA-CSSA-SSSA Ag Hackathon Competition</a>
+        <p class="authors">University of Arkansas News · Nov 2023</p>
+      </div>
+      <div class="pub reveal">
+        <a href="https://news.uark.edu/articles/63312/crop-science-m-s-student-fernandes-second-in-national-yield-prediction-contest" target="_blank" rel="noopener">Crop Science M.S. Student Fernandes Second in National Yield Prediction Contest</a>
+        <p class="authors">University of Arkansas News · Feb 2023</p>
+      </div>
     </div>
   </section>
 

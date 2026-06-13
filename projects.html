@@ -11,6 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Google Analytics GA4 — replace G-XXXXXXXXXX with your Measurement ID from analytics.google.com -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
 </head>
 <body>
 
@@ -29,6 +32,7 @@
             <a href="/#welcome">Welcome</a>
             <a href="/#research">Research themes</a>
             <a href="/#news">Lab news</a>
+            <a href="/#media">In the news</a>
           </div>
         </div>
         <div class="nav-item">
@@ -187,11 +191,11 @@
 
         <div class="feature tool reveal">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M4 17V7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10M4 17h16M4 17l-1 3h18l-1-3M9 9l-2 2 2 2M15 9l2 2-2 2"/></svg></div>
-          <h3>Prediction pipelines</h3>
-          <p>Reproducible R workflows for multi-trait, multi-environment genomic prediction that
-             integrate genomic, environmental, and high-throughput phenotyping data.</p>
+          <h3>SyntheticTraits</h3>
+          <p>Tools for building synthetic traits that improve multi-trait genomic prediction by
+             leveraging the co-heritability among traits.</p>
           <div class="links">
-            <a href="https://github.com/samuelbfernandes">GitHub</a>
+            <a href="https://github.com/fernandes-lab/SyntheticTraits">GitHub</a>
           </div>
         </div>
 
@@ -232,8 +236,8 @@
         <div>
           <h3 style="color:var(--brand)">Rice</h3>
           <p>A staple for half the world's population. We combine conventional breeding, genomics,
-             and gene editing to improve rice yield and grain quality under the high night-time
-             temperatures driven by a warming climate.</p>
+             and gene editing to improve rice yield and grain quality under high night-time
+             temperatures.</p>
         </div>
         <img src="assets/img/gallery-rice.jpg" alt="Rice"
              onerror="this.src='assets/img/placeholder-photo.svg'">
