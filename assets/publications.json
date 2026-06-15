@@ -2,107 +2,223 @@
   "author": "Samuel B. Fernandes",
   "scholar_id": "aR0shJYAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=aR0shJYAAAAJ&hl=en",
-  "updated": "2026-06-12",
-  "source": "manual (initial seed)",
-  "metrics": { "citations": 1048, "h_index": 15, "i10_index": 17 },
+  "updated": "2026-06-15",
+  "source": "scholarly",
+  "metrics": {
+    "citations": 1051,
+    "h_index": 15,
+    "i10_index": 17
+  },
   "publications": [
     {
       "title": "Nonlinear genomic selection index accelerates multi-trait crop improvement",
-      "authors": "J. J. Cerón-Rojas, O. A. Montesinos-López, A. Montesinos-López, P. Vitale, P. Pérez-Rodríguez, S. B. Fernandes, R. Ortiz, J. Crossa",
-      "venue": "Nature Communications",
+      "authors": null,
+      "venue": "Nature Communications, 2026",
       "year": 2026,
-      "url": "https://doi.org/10.1038/s41467-026-69890-3"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RYcK_YlVTxYC"
+    },
+    {
+      "title": "High‐Throughput Screen of NPQ in Sorghum Shows Highly Polygenic Architecture of Photoprotection",
+      "authors": null,
+      "venue": "Plant‐Environment Interactions 7 (1), e70114, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:vV6vV6tmYwMC"
+    },
+    {
+      "title": "Dissecting genetic variance structure and evaluating genomic prediction models for single-cross hybrids derived from Stiff Stalk and Non-Stiff Stalk maize heterotic groups",
+      "authors": null,
+      "venue": "bioRxiv, 2026.03. 11.710575, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:35N4QoGY0k4C"
     },
     {
       "title": "Optimizing population simulations to accurately parallel empirical data for digital breeding",
-      "authors": "M. J. Burns, R. della Coletta, S. B. Fernandes, M. O. Bohn, A. E. Lipka, C. N. Hirsch",
-      "venue": "Crop Science",
+      "authors": null,
+      "venue": "Crop Science 66 (1), e70247, 2026",
       "year": 2026,
-      "url": "https://doi.org/10.1002/csc2.70247"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:ns9cj8rnVeAC"
     },
     {
-      "title": "High-throughput screen of NPQ in sorghum shows highly polygenic architecture of photoprotection",
-      "authors": "R. L. Vath, S. B. Fernandes, B. Monier, K. Głowacka, J. Walter, A. E. Lipka, J. Ferguson, C. J. Bernacchi, T. Pederson, J. Kromdijk",
-      "venue": "Plant-Environment Interactions",
-      "year": 2026,
-      "url": "https://doi.org/10.1002/pei3.70114"
-    },
-    {
-      "title": "Genomic prediction and association mapping of early-season flood tolerance in soybean",
-      "authors": "C. C. Vieira, C. Wu, D. Harrison, R. Marmo, L. Florez-Palacios, A. Acuna, D. Rogers, S. B. Fernandes, I. Fernandes, G. Shannon, H. Ye, H. T. Nguyen",
-      "venue": "The Plant Genome",
+      "title": "Rice cultivar tolerance to preemergence-and postemergence-applied fluridone",
+      "authors": null,
+      "venue": "Weed Technology 39, e32, 2025",
       "year": 2025,
-      "url": "https://doi.org/10.1002/tpg2.70128"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:JV2RwH3_ST0C"
     },
     {
-      "title": "Improving multi-trait genomic prediction efficiency through the incorporation of synthetic traits selected based on co-heritability",
-      "authors": "A. Upadhyay, R. Azam, M. Yuan, S. Ivanovic, J. N. Ferguson, R. E. Paul, O. Koyejo, M. El-Kebir, A. E. Lipka, A. D. B. Leakey, S. B. Fernandes",
-      "venue": "bioRxiv",
+      "title": "Biochar type and rate effects on greenhouse gas emissions from furrow‐irrigated rice",
+      "authors": null,
+      "venue": "Agrosystems, Geosciences & Environment 8 (3), e70186, 2025",
       "year": 2025,
-      "url": "https://doi.org/10.1101/2025.06.23.661178"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:lSLTfruPkqcC"
+    },
+    {
+      "title": "Impact of Cover Crops on Furrow-Irrigated Rice and Palmer amaranth (Amaranthus palmeri) Emergence",
+      "authors": null,
+      "venue": "Weed Technology, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:M3NEmzRMIkIC"
+    },
+    {
+      "title": "Short‐term tillage effects on greenhouse gas emissions and global warming potential from soybean in southeast Arkansas",
+      "authors": null,
+      "venue": "Agrosystems, Geosciences & Environment 8 (4), e70274, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RGFaLdJalmkC"
+    },
+    {
+      "title": "Genomic prediction and association mapping of early season flood tolerance in soybean",
+      "authors": null,
+      "venue": "The Plant Genome 18 (4), e70128, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:J_g5lzvAfSwC"
+    },
+    {
+      "title": "Improving Multi-Trait Genomic Prediction Efficiency Through The Incorporation Of Synthetic Traits Selected Based on Co-heritability",
+      "authors": null,
+      "venue": "bioRxiv, 2025.06. 23.661178, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:hMod-77fHWUC"
+    },
+    {
+      "title": "Fluridone use in furrow-irrigated rice: Palmer amaranth control and crop response",
+      "authors": null,
+      "venue": "Weed Technology 39, e108, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:O3NaXMp0MMsC"
+    },
+    {
+      "title": "Effect of crop density on Palmer amaranth (Amaranthus palmeri) emergence and weed density interference potential in a furrow-irrigated rice system",
+      "authors": null,
+      "venue": "Weed Science 73 (1), e95, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:GnPB-g6toBAC"
     },
     {
       "title": "Using machine learning to combine genetic and environmental data for maize grain yield predictions across multi-environment trials",
-      "authors": "I. K. Fernandes, C. C. Vieira, K. O. G. Dias, S. B. Fernandes",
-      "venue": "Theoretical and Applied Genetics",
+      "authors": null,
+      "venue": "Theoretical and Applied Genetics 137 (8), 189, 2024",
       "year": 2024,
-      "url": "https://doi.org/10.1007/s00122-024-04687-w"
-    },
-    {
-      "title": "Beat the heat: Breeding, genomics, and gene editing for high nighttime temperature tolerance in rice",
-      "authors": "V. Srivastava, C. de Guzman, S. B. Fernandes",
-      "venue": "Current Opinion in Plant Biology",
-      "year": 2024,
-      "url": "https://doi.org/10.1016/j.pbi.2024.102659"
-    },
-    {
-      "title": "Realized genetic gain with reciprocal recurrent selection in a Eucalyptus breeding program",
-      "authors": "S. F. S. Chaves, L. A. S. Dias, R. S. Alves, F. M. Ferreira, M. S. Araújo, M. D. V. Resende, E. K. Takahashi, J. E. Souza, F. P. Leite, S. B. Fernandes, K. O. G. Dias",
-      "venue": "Tree Genetics & Genomes",
-      "year": 2024,
-      "url": "https://doi.org/10.1007/s11295-024-01678-2"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:hC7cP41nSMkC"
     },
     {
       "title": "Genome-wide association insights into the genomic regions controlling vegetative and oil production traits in Acrocomia aculeata",
-      "authors": "E. G. O. Couto, J. A. Morales-Marroquín, A. Alves-Pereira, S. B. Fernandes, C. A. Colombo, J. A. de Azevedo-Filho, C. R. L. Carvalho, M. I. Zucchi",
-      "venue": "BMC Plant Biology",
+      "authors": null,
+      "venue": "BMC Plant Biology 24 (1), 1125, 2024",
       "year": 2024,
-      "url": "https://doi.org/10.1186/s12870-024-05805-y"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:k_IJM867U9cC"
     },
     {
-      "title": "Rethinking Bayesian optimization with Gaussian processes: Insights from hyperspectral trait search",
-      "authors": "R. Azam, S. Koyejo, S. B. Fernandes, M. El-Kebir, A. D. B. Leakey, A. Lipka",
-      "venue": "NeurIPS 2023 AI for Science Workshop",
+      "title": "Effect of Palmer amaranth (Amaranthus palmeri) Time of Emergence on Furrow-Irrigated Rice Yields and Weed Seed Production",
+      "authors": null,
+      "venue": "Weed Science, 1-24, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:isC4tDSrTZIC"
+    },
+    {
+      "title": "Realized genetic gain with reciprocal recurrent selection in a Eucalyptus breeding program",
+      "authors": null,
+      "venue": "Tree Genetics & Genomes 20 (47), 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:j3f4tGmQtD8C"
+    },
+    {
+      "title": "Beat the heat: Breeding, genomics, and gene editing for high nighttime temperature tolerance in rice",
+      "authors": null,
+      "venue": "Current Opinion in Plant Biology 82, 102659, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:r0BpntZqJG4C"
+    },
+    {
+      "title": "Assessing Soybean Cultivar Resistance to Target Spot Using a Detached Leaf Assay",
+      "authors": null,
+      "venue": "PhytoFrontiers™ 4 (4), 728-733, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:_Qo2XoVZTnwC"
+    },
+    {
+      "title": "Near-surface soil chemical properties as affected by cover crops over time in the Lower Mississippi River Valley.",
+      "authors": null,
+      "venue": null,
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+      "title": "The Use of Antimicrobial Washes to Inactivate Shiga Toxin-Producing Escherichia coli from In-Shell Pecans and Wash Water Contaminated by Different Inoculation Routes",
+      "authors": null,
+      "venue": "Journal of Food Protection 87 (9), 100332, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RHpTSmoSYBkC"
+    },
+    {
+      "title": "Bayesian Optimization for Crop Genetics with Scalable Probabilistic Models",
+      "authors": null,
+      "venue": "Sixth Symposium on Advances in Approximate Bayesian Inference-Archival Track, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:mB3voiENLucC"
+    },
+    {
+      "title": "Potassium Losses in Runoff from Cotton Production Fields",
+      "authors": null,
+      "venue": "Agronomy Journal, 2023",
       "year": 2023,
-      "url": "https://openreview.net/forum?id=4ePJjCP14u"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+      "title": "A novel strategy to predict clonal composites by jointly modeling spatial variation and genetic competition",
+      "authors": null,
+      "venue": "Forest Ecology and Management 548, 121393, 2023",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:ZeXyd9-uunAC"
+    },
+    {
+      "title": "Linking genetic and environmental factors through marker effect networks to understand trait plasticity",
+      "authors": null,
+      "venue": "Genetics 224 (4), iyad103, 2023",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:4DMP91E08xMC"
     },
     {
       "title": "Importance of genetic architecture in marker selection decisions for genomic prediction",
-      "authors": "R. della Coletta, S. B. Fernandes, P. J. Monnahan, M. A. Mikel, M. O. Bohn, A. E. Lipka, C. N. Hirsch",
-      "venue": "Theoretical and Applied Genetics",
+      "authors": null,
+      "venue": "Theoretical and Applied Genetics, 530521, 2023",
       "year": 2023,
-      "url": "https://doi.org/10.1007/s00122-023-04469-w"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:mVmsd5A6BfQC"
     },
     {
-      "title": "Assessment of two statistical approaches for variance genome-wide association studies in plants",
-      "authors": "M. D. Murphy, S. B. Fernandes, G. Morota, A. E. Lipka",
-      "venue": "Heredity",
-      "year": 2022,
-      "url": "https://doi.org/10.1038/s41437-022-00541-1"
+      "title": "Rethinking Bayesian Optimization with Gaussian Processes: Insights from Hyperspectral Trait Search",
+      "authors": null,
+      "venue": "NeurIPS 2023 AI for Science Workshop, 2023",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:e5wmG9Sq2KIC"
+    },
+    {
+      "title": "Is it feasible to select for flowering set in soybean?",
+      "authors": null,
+      "venue": null,
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:YFjsv_pBGBYC"
     },
     {
       "title": "A multi-trait multi-locus stepwise approach for conducting GWAS on correlated traits",
-      "authors": "S. B. Fernandes, T. M. Casstevens, P. J. Bradbury, A. E. Lipka",
-      "venue": "The Plant Genome",
+      "authors": null,
+      "venue": "The Plant Genome, 2022",
       "year": 2022,
-      "url": "https://doi.org/10.1002/tpg2.20200"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:qxL8FJ1GzNcC"
     },
     {
-      "title": "simplePHENOTYPES: Simulation of pleiotropic, linked and epistatic phenotypes",
-      "authors": "S. B. Fernandes, A. E. Lipka",
-      "venue": "BMC Bioinformatics",
-      "year": 2020,
-      "url": "https://doi.org/10.1186/s12859-020-03804-y"
+      "title": "Assessment of two statistical approaches for variance genome-wide association studies in plants",
+      "authors": null,
+      "venue": "Heredity 129 (2), 93-102, 2022",
+      "year": 2022,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:aqlVkmm33-oC"
+    },
+    {
+      "title": "Machine learning enabled phenotyping for GWAS and TWAS of WUE traits in 869 field-grown sorghum accessions",
+      "authors": null,
+      "venue": "Plant Physiology, kiab346, 2021",
+      "year": 2021,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:Zph67rFs4hoC"
     }
   ]
 }
