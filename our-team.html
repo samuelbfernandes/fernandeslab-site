@@ -20,6 +20,9 @@
     <div class="wrap">
       <a class="brand" href="/"><span class="logo"><img src="assets/img/logo.svg" alt="" width="21" height="21"></span> FernandesLAB</a>
       <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <button class="search-toggle" type="button" aria-label="Search" title="Search (⌘K)">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
+      </button>
       <button class="theme-toggle" type="button" aria-label="Switch to light mode">
         <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
@@ -419,5 +422,15 @@
   </footer>
 
   <script src="assets/js/main.js"></script>
+  <!-- ===================== SEARCH OVERLAY ===================== -->
+  <div id="search-overlay" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-box">
+      <input type="search" id="search-input" placeholder="Search…" autocomplete="off" spellcheck="false">
+      <button class="search-close" aria-label="Close search"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+      <p class="search-hint">Type to search · <kbd>Esc</kbd> to close · <kbd>⌘K</kbd> to open anywhere</p>
+      <div id="search-results"></div>
+    </div>
+  </div>
+  <script src="assets/js/search.js"></script>
 </body>
 </html>
