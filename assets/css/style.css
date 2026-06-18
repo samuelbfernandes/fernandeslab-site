@@ -340,7 +340,7 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 }
 .person:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
 .person .photo {
-  width: 100%; aspect-ratio: 1 / 1; object-fit: cover;
+  width: 100%; height: auto; display: block;
   border-radius: var(--radius-sm); background: var(--bg-mint);
 }
 .person h3 { margin: 0 0 4px; font-size: 1.55rem; color: var(--ink); }
@@ -364,7 +364,7 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
   padding: 18px; transition: transform .2s, box-shadow .2s, border-color .2s;
 }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: transparent; }
-.card .photo { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: var(--radius-sm); background: var(--bg-mint); }
+.card .photo { width: 100%; height: auto; display: block; border-radius: var(--radius-sm); background: var(--bg-mint); }
 .card h3 { margin: 16px 2px 6px; font-size: 1.2rem; }
 .card .meta { margin: 2px; padding: 0 2px; }
 .card h4 { margin: 14px 2px 4px; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); }
