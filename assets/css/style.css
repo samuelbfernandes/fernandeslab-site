@@ -327,9 +327,9 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 .split { display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center; }
 .split .media {
   border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg);
-  aspect-ratio: 4 / 3; background: var(--bg-mint);
+  background: var(--bg-mint);
 }
-.split .media img { width: 100%; height: 100%; object-fit: cover; }
+.split .media img { width: 100%; height: auto; display: block; }
 
 /* ----------------------------------------------------------- Team cards */
 .person {
