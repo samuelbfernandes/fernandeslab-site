@@ -162,10 +162,10 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 
 /* Search button */
 .search-toggle {
-  order: 1; flex: none;
+  order: 4; flex: none;
   display: grid; place-items: center; width: 40px; height: 40px;
   background: transparent; border: 1px solid var(--line); border-radius: 10px;
-  color: var(--ink); cursor: pointer; margin-right: 6px;
+  color: var(--ink); cursor: pointer;
   transition: background .18s, color .18s, border-color .18s;
 }
 .search-toggle:hover { background: var(--bg-soft); border-color: var(--accent); color: var(--brand); }
