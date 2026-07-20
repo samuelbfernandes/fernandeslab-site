@@ -2,21 +2,14 @@
   "author": "Samuel B. Fernandes",
   "scholar_id": "aR0shJYAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=aR0shJYAAAAJ&hl=en",
-  "updated": "2026-06-15",
+  "updated": "2026-07-20",
   "source": "scholarly",
   "metrics": {
-    "citations": 1051,
+    "citations": 1091,
     "h_index": 15,
-    "i10_index": 17
+    "i10_index": 18
   },
   "publications": [
-    {
-      "title": "Nonlinear genomic selection index accelerates multi-trait crop improvement",
-      "authors": null,
-      "venue": "Nature Communications, 2026",
-      "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RYcK_YlVTxYC"
-    },
     {
       "title": "High‐Throughput Screen of NPQ in Sorghum Shows Highly Polygenic Architecture of Photoprotection",
       "authors": null,
@@ -25,11 +18,32 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:vV6vV6tmYwMC"
     },
     {
+      "title": "Nonlinear genomic selection index accelerates multi-trait crop improvement",
+      "authors": null,
+      "venue": "Nature Communications 17 (1), 1991, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RYcK_YlVTxYC"
+    },
+    {
       "title": "Dissecting genetic variance structure and evaluating genomic prediction models for single-cross hybrids derived from Stiff Stalk and Non-Stiff Stalk maize heterotic groups",
       "authors": null,
-      "venue": "bioRxiv, 2026.03. 11.710575, 2026",
+      "venue": "G3: Genes, Genomes, Genetics, jkag163, 2026",
       "year": 2026,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:35N4QoGY0k4C"
+    },
+    {
+      "title": "An efficient strategy for genomic prediction in new locations via enviromic indexing",
+      "authors": null,
+      "venue": "Discover Plants 3 (1), 272, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:SeFeTyx0c_EC"
+    },
+    {
+      "title": "Modeling genotype‐by‐environment interaction for variety recommendation in tropical wheat",
+      "authors": null,
+      "venue": "Crop Science 66 (3), e70309, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:2P1L_qKh6hAC"
     },
     {
       "title": "Optimizing population simulations to accurately parallel empirical data for digital breeding",
@@ -46,6 +60,13 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:JV2RwH3_ST0C"
     },
     {
+      "title": "Short‐term tillage effects on greenhouse gas emissions and global warming potential from soybean in southeast Arkansas",
+      "authors": null,
+      "venue": "Agrosystems, Geosciences & Environment 8 (4), e70274, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RGFaLdJalmkC"
+    },
+    {
       "title": "Biochar type and rate effects on greenhouse gas emissions from furrow‐irrigated rice",
       "authors": null,
       "venue": "Agrosystems, Geosciences & Environment 8 (3), e70186, 2025",
@@ -60,20 +81,6 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:M3NEmzRMIkIC"
     },
     {
-      "title": "Short‐term tillage effects on greenhouse gas emissions and global warming potential from soybean in southeast Arkansas",
-      "authors": null,
-      "venue": "Agrosystems, Geosciences & Environment 8 (4), e70274, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RGFaLdJalmkC"
-    },
-    {
-      "title": "Genomic prediction and association mapping of early season flood tolerance in soybean",
-      "authors": null,
-      "venue": "The Plant Genome 18 (4), e70128, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:J_g5lzvAfSwC"
-    },
-    {
       "title": "Improving Multi-Trait Genomic Prediction Efficiency Through The Incorporation Of Synthetic Traits Selected Based on Co-heritability",
       "authors": null,
       "venue": "bioRxiv, 2025.06. 23.661178, 2025",
@@ -86,6 +93,34 @@
       "venue": "Weed Technology 39, e108, 2025",
       "year": 2025,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:O3NaXMp0MMsC"
+    },
+    {
+      "title": "Genomic prediction and association mapping of early season flood tolerance in soybean",
+      "authors": null,
+      "venue": "The Plant Genome 18 (4), e70128, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:J_g5lzvAfSwC"
+    },
+    {
+      "title": "2939eP Central venous catheter-related complications in cancer patients: A retrospective analysis",
+      "authors": null,
+      "venue": "Annals of Oncology 36, S1539, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:ldfaerwXgEUC"
+    },
+    {
+      "title": "Towards the identification of genes controlling flowering time and intensity in blackberries",
+      "authors": null,
+      "venue": "HORTSCIENCE 60 (2), 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:pyW8ca7W8N0C"
+    },
+    {
+      "title": "Associations Between Early Berry Color and Final Anthocyanin Content in Blackberry",
+      "authors": null,
+      "venue": "HORTSCIENCE 60 (2), 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:HoB7MX3m0LUC"
     },
     {
       "title": "Effect of crop density on Palmer amaranth (Amaranthus palmeri) emergence and weed density interference potential in a furrow-irrigated rice system",
@@ -130,18 +165,18 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:r0BpntZqJG4C"
     },
     {
-      "title": "Assessing Soybean Cultivar Resistance to Target Spot Using a Detached Leaf Assay",
-      "authors": null,
-      "venue": "PhytoFrontiers™ 4 (4), 728-733, 2024",
-      "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:_Qo2XoVZTnwC"
-    },
-    {
       "title": "Near-surface soil chemical properties as affected by cover crops over time in the Lower Mississippi River Valley.",
       "authors": null,
       "venue": null,
       "year": 2024,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+      "title": "Assessing Soybean Cultivar Resistance to Target Spot Using a Detached Leaf Assay",
+      "authors": null,
+      "venue": "PhytoFrontiers™ 4 (4), 728-733, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:_Qo2XoVZTnwC"
     },
     {
       "title": "The Use of Antimicrobial Washes to Inactivate Shiga Toxin-Producing Escherichia coli from In-Shell Pecans and Wash Water Contaminated by Different Inoculation Routes",
@@ -151,74 +186,39 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RHpTSmoSYBkC"
     },
     {
+      "title": "Soybean Phenology Adaptation to Climate Change: A Straightforward Solution?",
+      "authors": null,
+      "venue": "ASA, CSSA, SSSA International Annual Meeting, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:3s1wT3WcHBgC"
+    },
+    {
+      "title": "ASA Community Planning Session--Bioinformatics in Crops and Soils",
+      "authors": null,
+      "venue": "ASA, CSSA, SSSA International Annual Meeting, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:yD5IFk8b50cC"
+    },
+    {
+      "title": "Symposium--Quantitative Genetics and Phenotype Prediction",
+      "authors": null,
+      "venue": "ASA, CSSA, SSSA International Annual Meeting, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:u_35RYKgDlwC"
+    },
+    {
+      "title": "Genomic Prediction and Association Mapping of Early-Season Flood Tolerance in Soybean",
+      "authors": null,
+      "venue": "ASA, CSSA, SSSA International Annual Meeting, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:zA6iFVUQeVQC"
+    },
+    {
       "title": "Bayesian Optimization for Crop Genetics with Scalable Probabilistic Models",
       "authors": null,
       "venue": "Sixth Symposium on Advances in Approximate Bayesian Inference-Archival Track, 2024",
       "year": 2024,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:mB3voiENLucC"
-    },
-    {
-      "title": "Potassium Losses in Runoff from Cotton Production Fields",
-      "authors": null,
-      "venue": "Agronomy Journal, 2023",
-      "year": 2023,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:9ZlFYXVOiuMC"
-    },
-    {
-      "title": "A novel strategy to predict clonal composites by jointly modeling spatial variation and genetic competition",
-      "authors": null,
-      "venue": "Forest Ecology and Management 548, 121393, 2023",
-      "year": 2023,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:ZeXyd9-uunAC"
-    },
-    {
-      "title": "Linking genetic and environmental factors through marker effect networks to understand trait plasticity",
-      "authors": null,
-      "venue": "Genetics 224 (4), iyad103, 2023",
-      "year": 2023,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:4DMP91E08xMC"
-    },
-    {
-      "title": "Importance of genetic architecture in marker selection decisions for genomic prediction",
-      "authors": null,
-      "venue": "Theoretical and Applied Genetics, 530521, 2023",
-      "year": 2023,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:mVmsd5A6BfQC"
-    },
-    {
-      "title": "Rethinking Bayesian Optimization with Gaussian Processes: Insights from Hyperspectral Trait Search",
-      "authors": null,
-      "venue": "NeurIPS 2023 AI for Science Workshop, 2023",
-      "year": 2023,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:e5wmG9Sq2KIC"
-    },
-    {
-      "title": "Is it feasible to select for flowering set in soybean?",
-      "authors": null,
-      "venue": null,
-      "year": 2023,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:YFjsv_pBGBYC"
-    },
-    {
-      "title": "A multi-trait multi-locus stepwise approach for conducting GWAS on correlated traits",
-      "authors": null,
-      "venue": "The Plant Genome, 2022",
-      "year": 2022,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:qxL8FJ1GzNcC"
-    },
-    {
-      "title": "Assessment of two statistical approaches for variance genome-wide association studies in plants",
-      "authors": null,
-      "venue": "Heredity 129 (2), 93-102, 2022",
-      "year": 2022,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:aqlVkmm33-oC"
-    },
-    {
-      "title": "Machine learning enabled phenotyping for GWAS and TWAS of WUE traits in 869 field-grown sorghum accessions",
-      "authors": null,
-      "venue": "Plant Physiology, kiab346, 2021",
-      "year": 2021,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:Zph67rFs4hoC"
     }
   ]
 }
