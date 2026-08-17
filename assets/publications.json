@@ -2,27 +2,41 @@
   "author": "Samuel B. Fernandes",
   "scholar_id": "aR0shJYAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=aR0shJYAAAAJ&hl=en",
-  "updated": "2026-07-20",
+  "updated": "2026-08-17",
   "source": "scholarly",
   "metrics": {
-    "citations": 1091,
+    "citations": 1137,
     "h_index": 15,
-    "i10_index": 18
+    "i10_index": 20
   },
   "publications": [
-    {
-      "title": "High‐Throughput Screen of NPQ in Sorghum Shows Highly Polygenic Architecture of Photoprotection",
-      "authors": null,
-      "venue": "Plant‐Environment Interactions 7 (1), e70114, 2026",
-      "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:vV6vV6tmYwMC"
-    },
     {
       "title": "Nonlinear genomic selection index accelerates multi-trait crop improvement",
       "authors": null,
       "venue": "Nature Communications 17 (1), 1991, 2026",
       "year": 2026,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RYcK_YlVTxYC"
+    },
+    {
+      "title": "High‐throughput screen of NPQ in sorghum shows highly polygenic architecture of photoprotection",
+      "authors": null,
+      "venue": "Plant‐Environment Interactions 7 (1), e70114, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:vV6vV6tmYwMC"
+    },
+    {
+      "title": "Modeling genotype‐by‐environment interaction for variety recommendation in tropical wheat",
+      "authors": null,
+      "venue": "Crop Science 66 (3), e70309, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:2P1L_qKh6hAC"
+    },
+    {
+      "title": "Assessing Malted and Adjunct Rice Potential in Diverse Rice Germplasm through Simulated Enzymatic Hydrolysis",
+      "authors": null,
+      "venue": "ACS Food Science & Technology, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:EUQCXRtRnyEC"
     },
     {
       "title": "Dissecting genetic variance structure and evaluating genomic prediction models for single-cross hybrids derived from Stiff Stalk and Non-Stiff Stalk maize heterotic groups",
@@ -39,13 +53,6 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:SeFeTyx0c_EC"
     },
     {
-      "title": "Modeling genotype‐by‐environment interaction for variety recommendation in tropical wheat",
-      "authors": null,
-      "venue": "Crop Science 66 (3), e70309, 2026",
-      "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:2P1L_qKh6hAC"
-    },
-    {
       "title": "Optimizing population simulations to accurately parallel empirical data for digital breeding",
       "authors": null,
       "venue": "Crop Science 66 (1), e70247, 2026",
@@ -60,13 +67,6 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:JV2RwH3_ST0C"
     },
     {
-      "title": "Short‐term tillage effects on greenhouse gas emissions and global warming potential from soybean in southeast Arkansas",
-      "authors": null,
-      "venue": "Agrosystems, Geosciences & Environment 8 (4), e70274, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RGFaLdJalmkC"
-    },
-    {
       "title": "Biochar type and rate effects on greenhouse gas emissions from furrow‐irrigated rice",
       "authors": null,
       "venue": "Agrosystems, Geosciences & Environment 8 (3), e70186, 2025",
@@ -74,18 +74,18 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:lSLTfruPkqcC"
     },
     {
+      "title": "Short‐term tillage effects on greenhouse gas emissions and global warming potential from soybean in southeast Arkansas",
+      "authors": null,
+      "venue": "Agrosystems, Geosciences & Environment 8 (4), e70274, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RGFaLdJalmkC"
+    },
+    {
       "title": "Impact of Cover Crops on Furrow-Irrigated Rice and Palmer amaranth (Amaranthus palmeri) Emergence",
       "authors": null,
       "venue": "Weed Technology, 2025",
       "year": 2025,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:M3NEmzRMIkIC"
-    },
-    {
-      "title": "Improving Multi-Trait Genomic Prediction Efficiency Through The Incorporation Of Synthetic Traits Selected Based on Co-heritability",
-      "authors": null,
-      "venue": "bioRxiv, 2025.06. 23.661178, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:hMod-77fHWUC"
     },
     {
       "title": "Fluridone use in furrow-irrigated rice: Palmer amaranth control and crop response",
@@ -102,11 +102,11 @@
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:J_g5lzvAfSwC"
     },
     {
-      "title": "2939eP Central venous catheter-related complications in cancer patients: A retrospective analysis",
+      "title": "Improving multi-trait genomic prediction efficiency through the incorporation of synthetic traits selected based on co-heritability",
       "authors": null,
-      "venue": "Annals of Oncology 36, S1539, 2025",
+      "venue": "bioRxiv, 2025.06. 23.661178, 2025",
       "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:ldfaerwXgEUC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:hMod-77fHWUC"
     },
     {
       "title": "Towards the identification of genes controlling flowering time and intensity in blackberries",
