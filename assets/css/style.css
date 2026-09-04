@@ -116,12 +116,12 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
   text-decoration: none; font-size: 1.18rem;
 }
 .brand .logo {
-  width: 34px; height: 34px; border-radius: 9px;
-  background: linear-gradient(140deg, var(--accent-2), var(--accent) 50%, var(--brand-dark));
-  display: grid; place-items: center; color: #fff;
-  box-shadow: var(--shadow);
+  display: flex; align-items: center;
 }
-.brand .logo img { width: 21px; height: 21px; display: block; }
+.brand .logo img { height: 36px; width: auto; display: block; }
+.brand .logo .logo-light { display: none; }
+:root[data-theme="light"] .brand .logo .logo-dark { display: none; }
+:root[data-theme="light"] .brand .logo .logo-light { display: block; }
 .nav { display: flex; align-items: center; gap: 2px; }
 .nav a {
   color: var(--ink); text-decoration: none; font-size: .95rem;
