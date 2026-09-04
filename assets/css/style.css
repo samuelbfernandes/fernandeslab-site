@@ -118,10 +118,26 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 .brand .logo {
   display: flex; align-items: center;
 }
-.brand .logo img { height: 36px; width: auto; display: block; }
+.brand .logo img { height: 58px; width: auto; display: block; }
+.brand-text { white-space: nowrap; color: var(--ink); }
 .brand .logo .logo-light { display: none; }
 :root[data-theme="light"] .brand .logo .logo-dark { display: none; }
 :root[data-theme="light"] .brand .logo .logo-light { display: block; }
+
+/* Footer background is always dark, regardless of theme — always show the white logo there.
+   (Specificity must beat the :root[data-theme="light"] rules above, which otherwise win.) */
+.site-footer .brand .logo .logo-dark,
+:root[data-theme="light"] .site-footer .brand .logo .logo-dark { display: block; }
+.site-footer .brand .logo .logo-light,
+:root[data-theme="light"] .site-footer .brand .logo .logo-light { display: none; }
+
+.site-footer .cols > div:first-child { text-align: center; }
+.site-footer .cols > div:first-child .brand {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  margin: 0 auto 16px;
+}
+.site-footer .brand .logo img { height: 92px; width: auto; }
+.site-footer .cols > div:first-child p { max-width: 320px; margin: 0 auto; }
 .nav { display: flex; align-items: center; gap: 2px; }
 .nav a {
   color: var(--ink); text-decoration: none; font-size: .95rem;
@@ -419,6 +435,7 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: transparent; }
 .card .photo { width: 100%; height: auto; display: block; border-radius: var(--radius-sm); background: var(--bg-mint); }
+.masters-grid .card .photo { aspect-ratio: 1 / 1; object-fit: cover; }
 .card h3 { margin: 16px 2px 6px; font-size: 1.2rem; }
 .card .meta { margin: 2px; padding: 0 2px; }
 .card h4 { margin: 14px 2px 4px; font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); }

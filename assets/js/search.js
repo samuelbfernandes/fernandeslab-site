@@ -13,7 +13,7 @@ var SEARCH_INDEX = [
 
   // Team
   { title: 'Our Team', url: '/our-team', section: '', snippet: 'Statisticians, geneticists, and computer scientists working across plant breeding.' },
-  { title: 'Join Us — Open Positions', url: '/our-team#openings', section: 'Team', snippet: 'Post-doctoral fellow opening in quantitative genetics, genomic prediction and machine learning for plant breeding.' },
+  { title: 'Join Us — Open Positions', url: '/our-team#openings', section: 'Team', snippet: 'No open positions at the moment — prospective graduate students and visiting scholars are encouraged to get in touch.' },
   { title: 'Samuel B. Fernandes', url: '/our-team#pi', section: 'Team · PI', snippet: 'Assistant Professor of Agricultural Statistics and Quantitative Genetics. CADA, University of Arkansas Division of Agriculture.' },
   { title: 'Research Staff', url: '/our-team#staff', section: 'Team', snippet: 'Erin Farmer, Program Associate. Mario Morales, Postdoctoral Fellow. University of Arkansas Division of Agriculture.' },
   { title: 'PhD Students', url: '/our-team#phd', section: 'Team', snippet: 'Elias Z. Mohellebi — deep learning, GxE predictions, GIS, machine learning, feature engineering.' },
