@@ -2,19 +2,22 @@
 // FernandesLAB — small progressive enhancements (no dependencies)
 // ---------------------------------------------------------------------------
 
-// Mobile nav toggle
-function closeNav() {
+// Mobile nav toggle (keeps aria-expanded in sync for screen readers)
+function setNav(open) {
   var nav = document.querySelector('.nav');
   var t = document.querySelector('.nav-toggle');
-  if (nav) nav.classList.remove('open');
-  if (t) t.classList.remove('open');
+  if (nav) nav.classList.toggle('open', open);
+  if (t) {
+    t.classList.toggle('open', open);
+    t.setAttribute('aria-expanded', String(open));
+  }
 }
+function closeNav() { setNav(false); }
 document.addEventListener('click', function (e) {
   var nav = document.querySelector('.nav');
   var toggle = e.target.closest('.nav-toggle');
   if (toggle) {
-    nav.classList.toggle('open');
-    toggle.classList.toggle('open');
+    setNav(!(nav && nav.classList.contains('open')));
   } else if (e.target.closest('.nav a')) {
     // tapping any nav or submenu link jumps to the topic and closes the mobile menu
     closeNav();
@@ -22,6 +25,31 @@ document.addEventListener('click', function (e) {
     if (nav && nav.classList.contains('open')) closeNav();
   }
 });
+document.addEventListener('keydown', function (e) {
+  var nav = document.querySelector('.nav');
+  if (e.key === 'Escape' && nav && nav.classList.contains('open')) {
+    closeNav();
+    var t = document.querySelector('.nav-toggle');
+    if (t) t.focus();
+  }
+});
+
+// Missing photos fall back to a placeholder. Images opt in with
+// data-fallback="assets/img/placeholder-....svg" (replaces inline onerror
+// handlers so the Content-Security-Policy can forbid inline script). Each image
+// swaps at most once, so a missing placeholder can't cause an error loop.
+(function () {
+  function swap(img) {
+    var fb = img.getAttribute('data-fallback');
+    if (!fb) return;
+    img.removeAttribute('data-fallback');
+    img.src = fb;
+  }
+  document.querySelectorAll('img[data-fallback]').forEach(function (img) {
+    if (img.complete && img.naturalWidth === 0) swap(img);
+    else img.addEventListener('error', function () { swap(img); }, { once: true });
+  });
+})();
 
 // Header gains a shadow once the page is scrolled
 var header = document.querySelector('.site-header');

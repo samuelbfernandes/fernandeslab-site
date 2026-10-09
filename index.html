@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta charset="UTF-8">
+  <!-- CSP: the sha256 below is the hash of the inline theme script that follows. If you edit that
+       script, recompute the hash (see CLAUDE.md) or the theme toggle will stop applying on load. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-HCuTkR8s8bBE5jB1+eptmAUnOb1/ojIguyVk0SI0Gu8=' https://*.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FernandesLAB — Quantitative Genetics, Statistics & AI for Plant Breeding</title>
   <meta name="description" content="The Fernandes Lab at the University of Arkansas — quantitative genetics, agricultural statistics, machine learning and AI for predictive plant breeding.">
+  <link rel="canonical" href="https://fernandeslab.org/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FernandesLAB">
+  <meta property="og:title" content="FernandesLAB — Quantitative Genetics, Statistics & AI for Plant Breeding">
+  <meta property="og:description" content="The Fernandes Lab at the University of Arkansas — quantitative genetics, agricultural statistics, machine learning and AI for predictive plant breeding.">
+  <meta property="og:url" content="https://fernandeslab.org/">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
@@ -15,7 +26,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Google Analytics GA4 — replace G-V5YJ4Q3752 with your Measurement ID from analytics.google.com -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5YJ4Q3752"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-V5YJ4Q3752');</script>
+  <script src="/assets/js/analytics.js"></script>
 </head>
 <body>
 
@@ -23,7 +34,7 @@
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/"><span class="logo"><img class="logo-dark" src="assets/img/logo_white_transparent.png" alt="FernandesLAB"><img class="logo-light" src="assets/img/logo_gray_transparent.png" alt="FernandesLAB"></span><span class="brand-text">FernandesLAB</span></a>
-      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
       <button class="search-toggle" type="button" aria-label="Search" title="Search (⌘K)">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
       </button>
@@ -31,7 +42,7 @@
         <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
-      <nav class="nav">
+      <nav class="nav" id="site-nav" aria-label="Main">
         <div class="nav-item">
           <a href="/" class="active">Home</a>
           <div class="submenu">
@@ -56,6 +67,7 @@
             <a href="/our-team#staff">Staff</a>
             <a href="/our-team#phd">PhD Students</a>
             <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#undergrads">Undergraduate Students</a>
             <a href="/our-team#interns">Interns</a>
             <a href="/our-team#alumni">Alumni</a>
           </div>
@@ -118,7 +130,9 @@
             <strong>Center for Agricultural Data Analytics (CADA)</strong> at the
             University of Arkansas, led by Dr.&nbsp;Samuel&nbsp;B.&nbsp;Fernandes. We build the
             statistical methods, predictive models, and open-source software that make plant
-            breeding faster and more predictable across diverse environments.
+            breeding faster and more predictable across diverse environments — approaches designed
+            to apply to any crop. Through CADA, we also provide statistical consulting to
+            researchers across the University of Arkansas.
           </p>
           <div class="hero-cta" style="justify-content:flex-start;margin-top:26px;flex-wrap:wrap;gap:10px;">
             <a class="btn btn-solid" href="/about#mission-vision">Our Mission</a>
@@ -129,7 +143,7 @@
         </div>
         <div class="media reveal">
           <img src="assets/img/HP.jpg" alt="Dr. Samuel B. Fernandes"
-               onerror="this.src='assets/img/placeholder-photo.svg'">
+               data-fallback="assets/img/placeholder-photo.svg">
         </div>
       </div>
     </div>
@@ -141,7 +155,7 @@
       <div class="section-head center reveal">
         <span class="eyebrow">What we do</span>
         <h2 class="section-title" id="research">Our research themes</h2>
-        <p class="lead">Four connected areas drive the questions we ask and the tools we build.</p>
+        <p class="lead">Five connected areas drive the questions we ask and the tools we build — methods designed to work for any crop.</p>
       </div>
       <div class="features">
         <div class="feature reveal">
@@ -152,17 +166,22 @@
         <div class="feature reveal">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M7 4v16M17 4v16M7 8h10M7 16h10M9 4a3 3 0 0 0 6 0M9 20a3 3 0 0 1 6 0"/></svg></div>
           <h3>Quantitative Genetics</h3>
-          <p>Genomic prediction and association mapping to connect genotype with phenotype.</p>
+          <p>Genomic prediction, association mapping (GWAS &amp; TWAS), and simulation to connect genotype with phenotype.</p>
         </div>
         <div class="feature reveal">
           <div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v6m0 0a4 4 0 0 0-4 4v8h8v-8a4 4 0 0 0-4-4zM5 14H3m18 0h-2"/></svg></div>
           <h3>Plant Breeding</h3>
-          <p>Faster, more predictable selection across diverse crops including soybean, rice, maize, and blackberry.</p>
+          <p>Crop-agnostic tools for faster, more predictable selection — applied with partner programs in crops such as soybean, rice, maize, and blackberry.</p>
         </div>
         <div class="feature reveal">
           <div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg></div>
           <h3>Machine Learning &amp; AI</h3>
-          <p>ML/AI models that fuse multi-omics data for prediction.</p>
+          <p>Machine learning for high-throughput phenotyping and for prediction models that fuse genomic and environmental data.</p>
+        </div>
+        <div class="feature reveal">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 20V9m4 11v-6m4 6V6m4 14v-9m4 9V4"/><circle cx="13" cy="4" r="1.6"/></svg></div>
+          <h3>ML-enabled Phenotyping &amp; Bayesian Optimization</h3>
+          <p>Machine-learning pipelines that turn images and sensor data into traits for GWAS and TWAS, and Bayesian optimization to search trait space efficiently.</p>
         </div>
       </div>
     </div>
@@ -196,10 +215,10 @@
           <p>Dr. Samuel B. Fernandes received the Foundation for Food &amp; Agriculture Research
              (FFAR) New Innovator Award, recognizing early-career scientists making transformative
              contributions to food and agriculture research.</p>
-          <p><a href="https://aaes.uada.edu/news/fernandes-ffar-award/" target="_blank" rel="noopener">Read the full story …</a></p>
+          <p><a href="https://aaes.uada.edu/news/fernandes-ffar-award/" target="_blank" rel="noopener noreferrer">Read the full story …</a></p>
         </div>
         <img src="assets/img/ffar.jpg" alt="Fernandes FFAR New Innovator Award"
-             onerror="this.src='assets/img/placeholder-photo.svg'">
+             data-fallback="assets/img/placeholder-photo.svg">
       </article>
 
       <article class="news-item reveal">
@@ -212,7 +231,7 @@
              Technology, sharpening his work in genomic prediction and GWAS.</p>
         </div>
         <img src="assets/img/carlos.png" alt="Carlos at the 30th SISG"
-             onerror="this.src='assets/img/placeholder-photo.svg'">
+             data-fallback="assets/img/placeholder-photo.svg">
       </article>
 
       <article class="news-item reveal">
@@ -225,23 +244,23 @@
           <p><a href="/publications">See our recent work …</a></p>
         </div>
         <img src="assets/img/igor.png" alt="Igor Fernandes"
-             onerror="this.src='assets/img/placeholder-photo.svg'">
+             data-fallback="assets/img/placeholder-photo.svg">
       </article>
 
-      <div class="pub reveal">
-        <a href="https://aaes.uada.edu/news/from-data-to-insights/" target="_blank" rel="noopener">From Data to Insights — Behind the Discovery</a>
+      <div class="pub reveal" id="media">
+        <a href="https://aaes.uada.edu/news/from-data-to-insights/" target="_blank" rel="noopener noreferrer">From Data to Insights — Behind the Discovery</a>
         <p class="authors">Arkansas Agricultural Experiment Station · video feature</p>
       </div>
       <div class="pub reveal">
-        <a href="https://www.youtube.com/watch?v=_TpjUryYQPs" target="_blank" rel="noopener">Dr. Samuel Fernandes: Statistical Models in Plant Breeding</a>
+        <a href="https://www.youtube.com/watch?v=_TpjUryYQPs" target="_blank" rel="noopener noreferrer">Dr. Samuel Fernandes: Statistical Models in Plant Breeding</a>
         <p class="authors">The Crop Science Podcast Show · YouTube</p>
       </div>
       <div class="pub reveal">
-        <a href="https://news.uark.edu/articles/67890/crop-science-grad-students-win-asa-cssa-sssa-ag-hackathon-competition" target="_blank" rel="noopener">Crop Science Grad Students Win ASA-CSSA-SSSA Ag Hackathon Competition</a>
+        <a href="https://news.uark.edu/articles/67890/crop-science-grad-students-win-asa-cssa-sssa-ag-hackathon-competition" target="_blank" rel="noopener noreferrer">Crop Science Grad Students Win ASA-CSSA-SSSA Ag Hackathon Competition</a>
         <p class="authors">University of Arkansas News · Nov 2023</p>
       </div>
       <div class="pub reveal">
-        <a href="https://news.uark.edu/articles/63312/crop-science-m-s-student-fernandes-second-in-national-yield-prediction-contest" target="_blank" rel="noopener">Crop Science M.S. Student Fernandes Second in National Yield Prediction Contest</a>
+        <a href="https://news.uark.edu/articles/63312/crop-science-m-s-student-fernandes-second-in-national-yield-prediction-contest" target="_blank" rel="noopener noreferrer">Crop Science M.S. Student Fernandes Second in National Yield Prediction Contest</a>
         <p class="authors">University of Arkansas News · Feb 2023</p>
       </div>
     </div>
@@ -284,7 +303,7 @@
              Arkansas Division of Agriculture.</p>
         </div>
         <div>
-          <h5>Explore</h5>
+          <h2 class="footer-h">Explore</h2>
           <ul>
             <li><a href="/about">About</a></li>
             <li><a href="/our-team">Team</a></li>
@@ -295,7 +314,7 @@
           </ul>
         </div>
         <div>
-          <h5>Contact</h5>
+          <h2 class="footer-h">Contact</h2>
           <ul>
             <li>samuelbf [at] uark [dot] edu</li>
             <li>479-575-5677</li>
@@ -314,8 +333,8 @@
   <!-- ===================== SEARCH OVERLAY ===================== -->
   <div id="search-overlay" role="dialog" aria-modal="true" aria-label="Search">
     <div class="search-box">
-      <input type="search" id="search-input" placeholder="Search…" autocomplete="off" spellcheck="false">
-      <button class="search-close" aria-label="Close search"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+      <input type="search" id="search-input" aria-label="Search this site" placeholder="Search…" autocomplete="off" spellcheck="false">
+      <button class="search-close" type="button" aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       <p class="search-hint">Type to search · <kbd>Esc</kbd> to close · <kbd>⌘K</kbd> to open anywhere</p>
       <div id="search-results"></div>
     </div>

@@ -1,23 +1,24 @@
 var SEARCH_INDEX = [
   // Home
   { title: 'Home', url: '/', section: '', snippet: 'Predictive plant breeding powered by quantitative genetics and statistical learning.' },
-  { title: 'Welcome', url: '/#welcome', section: 'Home', snippet: 'Research group at the intersection of statistics, genetics, and machine learning at the University of Arkansas.' },
-  { title: 'Research Themes', url: '/#research', section: 'Home', snippet: 'Statistics, Quantitative Genetics, Machine Learning, Open-source software development.' },
+  { title: 'Welcome', url: '/#welcome', section: 'Home', snippet: 'Research group at the intersection of statistics, genetics, and machine learning at the University of Arkansas. Statistical consulting through CADA.' },
+  { title: 'Research Themes', url: '/#research', section: 'Home', snippet: 'Statistics, Quantitative Genetics, Plant Breeding, Machine Learning & AI, ML-enabled phenotyping & Bayesian optimization. GWAS, TWAS, genomic prediction, simulation. Crop-agnostic methods.' },
   { title: 'Lab News & Media', url: '/#news', section: 'Home', snippet: 'Lab news, events, media coverage, press, podcast.' },
 
   // About
   { title: 'About the Lab', url: '/about', section: '', snippet: 'Quantitative genetics, statistics, and AI connecting genes to traits across plant biology, physiology, and breeding.' },
-  { title: 'Overview', url: '/about#overview', section: 'About', snippet: 'Center for Agricultural Data Analytics CADA. Department of Crop, Soil, and Environmental Sciences. University of Arkansas.' },
+  { title: 'Overview', url: '/about#overview', section: 'About', snippet: 'Center for Agricultural Data Analytics CADA. Department of Crop, Soil, and Environmental Sciences. University of Arkansas. Crop-agnostic methods, ML-enabled phenotyping, Bayesian optimization, statistical consulting.' },
   { title: 'Mission & Vision', url: '/about#mission-vision', section: 'About', snippet: 'Connect genotype to phenotype. Identify genes behind complex traits. Predict plant performance across environments. GWAS TWAS genomic prediction.' },
   { title: 'Goals', url: '/about#goals', section: 'About', snippet: 'Multi-omics prediction, advance statistical methods, open-source software, AI machine learning, mentoring, breeding partnerships.' },
 
   // Team
   { title: 'Our Team', url: '/our-team', section: '', snippet: 'Statisticians, geneticists, and computer scientists working across plant breeding.' },
   { title: 'Join Us — Open Positions', url: '/our-team#openings', section: 'Team', snippet: 'No open positions at the moment — prospective graduate students and visiting scholars are encouraged to get in touch.' },
-  { title: 'Samuel B. Fernandes', url: '/our-team#pi', section: 'Team · PI', snippet: 'Assistant Professor of Agricultural Statistics and Quantitative Genetics. CADA, University of Arkansas Division of Agriculture.' },
+  { title: 'Samuel B. Fernandes', url: '/our-team#pi', section: 'Team · PI', snippet: 'Assistant Professor of Agricultural Statistics and Quantitative Genetics. CADA, University of Arkansas Division of Agriculture. Statistical consulting.' },
   { title: 'Research Staff', url: '/our-team#staff', section: 'Team', snippet: 'Erin Farmer, Program Associate. Mario Morales, Postdoctoral Fellow. University of Arkansas Division of Agriculture.' },
   { title: 'PhD Students', url: '/our-team#phd', section: 'Team', snippet: 'Elias Z. Mohellebi — deep learning, GxE predictions, GIS, machine learning, feature engineering.' },
   { title: "Master's Students", url: '/our-team#masters', section: 'Team', snippet: 'Julia Gonçalves Batista, Carlos Ramos Bisinotto, Soni Pinjala, Danilo Silva Carvalho de Oliveira, João Pedro Neigri Heleno — statistics, computer science, genomic prediction.' },
+  { title: 'Undergraduate Students', url: '/our-team#undergrads', section: 'Team', snippet: 'Sanjay Shreeyans Javangula — undergraduate research assistant in computer science.' },
   { title: 'Interns', url: '/our-team#interns', section: 'Team', snippet: 'No current interns — check back soon or get in touch if you are interested.' },
   { title: 'Alumni & Career Paths', url: '/our-team#alumni', section: 'Team', snippet: 'Melina Prado, Igor K. Fernandes, Matthew Murphy, Ashmita Upadhyay — former lab members and their career transitions.' },
 
@@ -33,11 +34,11 @@ var SEARCH_INDEX = [
   { title: 'simplePHENOTYPES', url: '/projects#software', section: 'Projects · Software', snippet: 'R package for simulating pleiotropic, linked, and epistatic phenotypes. CRAN. Benchmarking GWAS and genomic prediction.' },
   { title: 'SyntheticTraits', url: '/projects#software', section: 'Projects · Software', snippet: 'Tools for building synthetic traits that improve multi-trait genomic prediction using co-heritability.' },
   { title: 'Software & Tools', url: '/projects#software', section: 'Projects', snippet: 'Open-source R packages and code repositories for the breeding and genetics community.' },
-  { title: 'Study Systems', url: '/projects#study-systems', section: 'Projects', snippet: 'Soybean, rice, maize, sorghum, blackberry, common bean, eucalyptus. Crop breeding programs.' },
+  { title: 'Study Systems', url: '/projects#study-systems', section: 'Projects', snippet: 'Crop-agnostic methods applied in example systems: soybean, rice, maize, sorghum, blackberry, common bean (background work), eucalyptus.' },
 
   // Publications
-  { title: 'Publications', url: '/publications', section: '', snippet: 'Peer-reviewed papers on genomic prediction, GWAS, quantitative genetics, high-throughput phenotyping, enviromics.' },
-  { title: 'Citation Metrics', url: '/publications#metrics', section: 'Publications', snippet: '1,000+ citations, h-index 15, 40+ publications. Google Scholar.' },
+  { title: 'Publications', url: '/publications', section: '', snippet: 'Peer-reviewed papers on genomic prediction, GWAS, quantitative genetics, high-throughput phenotyping, Bayesian optimization, enviromics, and collaborative statistical consulting.' },
+  { title: 'Citation Metrics', url: '/publications#metrics', section: 'Publications', snippet: '1,000+ citations, h-index 15, i10-index 20, 40+ publications. Google Scholar.' },
   { title: 'Recent Publications', url: '/publications#recent', section: 'Publications', snippet: 'Latest peer-reviewed papers from the Fernandes Lab.' },
 
   // Contact
@@ -100,7 +101,7 @@ var SEARCH_INDEX = [
         var sectionHtml = item.section
           ? '<span class="search-result-section">' + esc(item.section) + ' › </span>'
           : '';
-        return '<a class="search-result" href="' + item.url + '">' +
+        return '<a class="search-result" href="' + esc(item.url) + '">' +
           '<div class="search-result-title">' + sectionHtml + esc(item.title) + '</div>' +
           '<div class="search-result-snippet">' + esc(item.snippet) + '</div>' +
           '</a>';

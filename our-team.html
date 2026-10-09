@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta charset="UTF-8">
+  <!-- CSP: the sha256 below is the hash of the inline theme script that follows. If you edit that
+       script, recompute the hash (see CLAUDE.md) or the theme toggle will stop applying on load. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-HCuTkR8s8bBE5jB1+eptmAUnOb1/ojIguyVk0SI0Gu8=' https://*.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Team — FernandesLAB</title>
   <meta name="description" content="Meet the FernandesLAB team: principal investigator, postdoctoral fellows, PhD and master students, and interns.">
+  <link rel="canonical" href="https://fernandeslab.org/our-team">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FernandesLAB">
+  <meta property="og:title" content="Our Team — FernandesLAB">
+  <meta property="og:description" content="Meet the FernandesLAB team: principal investigator, postdoctoral fellows, PhD and master students, and interns.">
+  <meta property="og:url" content="https://fernandeslab.org/our-team">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
@@ -15,14 +26,14 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Google Analytics GA4 — replace G-V5YJ4Q3752 with your Measurement ID from analytics.google.com -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5YJ4Q3752"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-V5YJ4Q3752');</script>
+  <script src="/assets/js/analytics.js"></script>
 </head>
 <body>
 
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/"><span class="logo"><img class="logo-dark" src="assets/img/logo_white_transparent.png" alt="FernandesLAB"><img class="logo-light" src="assets/img/logo_gray_transparent.png" alt="FernandesLAB"></span><span class="brand-text">FernandesLAB</span></a>
-      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
       <button class="search-toggle" type="button" aria-label="Search" title="Search (⌘K)">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
       </button>
@@ -30,7 +41,7 @@
         <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
-      <nav class="nav">
+      <nav class="nav" id="site-nav" aria-label="Main">
         <div class="nav-item">
           <a href="/">Home</a>
           <div class="submenu">
@@ -56,6 +67,7 @@
             <a href="/our-team#staff">Staff</a>
             <a href="/our-team#phd">PhD Students</a>
             <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#undergrads">Undergraduate Students</a>
             <a href="/our-team#interns">Interns</a>
             <a href="/our-team#alumni">Alumni</a>
           </div>
@@ -115,22 +127,22 @@
 
       <article class="person reveal">
         <img class="photo" src="assets/team/samuel.jpg" alt="Samuel B. Fernandes"
-             onerror="this.src='assets/img/placeholder-person.svg'">
+             data-fallback="assets/img/placeholder-person.svg">
         <div>
           <h3>Samuel B. Fernandes</h3>
           <p class="role">Assistant Professor of Agricultural Statistics and Quantitative Genetics</p>
           <p class="affil">
             University of Arkansas Division of Agriculture (UADA)<br>
-            Center for Agricultural Data Analytics (CADA)<br>
-            Director, Experiment Station (DREX)
+            Center for Agricultural Data Analytics (CADA)
           </p>
           <p class="meta"><strong>Phone:</strong> 479-575-5677</p>
           <p class="meta"><strong>Email:</strong> samuelbf [at] uark [dot] edu</p>
 
           <h4>Research Interests</h4>
           <ul>
-            <li>Quantitative Genetics</li><li>Statistics</li><li>Plant Breeding</li><li>Machine Learning &amp; AI</li>
+            <li>Quantitative Genetics</li><li>Statistics</li><li>Plant Breeding</li><li>Machine Learning &amp; AI</li><li>ML-enabled Phenotyping &amp; Bayesian Optimization</li>
           </ul>
+          <p class="meta">Provides statistical consulting to University of Arkansas researchers through CADA (2022–present).</p>
 
           <h4>Education</h4>
           <div class="edu">
@@ -155,7 +167,7 @@
 
       <article class="person reveal">
         <img class="photo" src="assets/team/erin.jpg" alt="Erin Farmer"
-             onerror="this.src='assets/img/placeholder-person.svg'">
+             data-fallback="assets/img/placeholder-person.svg">
         <div>
           <h3>Erin Farmer</h3>
           <p class="role">Program Associate</p>
@@ -180,7 +192,7 @@
 
       <article class="person reveal">
         <img class="photo" src="assets/team/mario.jpg" alt="Mario Morales"
-             onerror="this.src='assets/img/placeholder-person.svg'">
+             data-fallback="assets/img/placeholder-person.svg">
         <div>
           <h3>Mario Morales</h3>
           <p class="role">Postdoctoral Fellow</p>
@@ -213,7 +225,7 @@
 
       <article class="person reveal">
         <img class="photo" src="assets/team/elias.jpg" alt="Elias Z. Mohellebi"
-             onerror="this.src='assets/img/placeholder-person.svg'">
+             data-fallback="assets/img/placeholder-person.svg">
         <div>
           <h3>Elias Z. Mohellebi</h3>
           <p class="role">PhD Student</p>
@@ -247,13 +259,13 @@
   <!-- ===================== MASTER STUDENTS ===================== -->
   <section class="section alt">
     <div class="wrap">
-      <h2 class="section-title" id="masters">Master Students</h2>
+      <h2 class="section-title" id="masters">Master's Students</h2>
 
       <div class="grid grid-3 masters-grid">
 
         <article class="card reveal">
           <img class="photo" src="assets/team/julia.jpg" alt="Julia Gonçalves Batista"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Julia Gonçalves Batista</h3>
           <p class="meta"><strong>Major:</strong> Statistics and Analytics</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2027</p>
@@ -269,7 +281,7 @@
 
         <article class="card reveal">
           <img class="photo" src="assets/team/carlos.jpg" alt="Carlos Ramos Bisinotto"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Carlos Ramos Bisinotto</h3>
           <p class="meta"><strong>Major:</strong> Statistics and Analytics</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2026</p>
@@ -285,7 +297,7 @@
 
         <article class="card reveal">
           <img class="photo" src="assets/team/soni.png" alt="Soni Pinjala"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Soni Pinjala</h3>
           <p class="meta"><strong>Major:</strong> Computer Science</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2027</p>
@@ -302,7 +314,7 @@
         <article class="card reveal">
           <img class="photo" src="assets/team/danilo.jpg" alt="Danilo Silva Carvalho de Oliveira"
                style="object-position: center top;"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Danilo Silva Carvalho de Oliveira</h3>
           <p class="meta"><strong>Major:</strong> Statistics and Analytics</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2028</p>
@@ -316,7 +328,7 @@
 
         <article class="card reveal">
           <img class="photo" src="assets/team/joao.jpg" alt="João Pedro Neigri Heleno"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>João Pedro Neigri Heleno</h3>
           <p class="meta"><strong>Major:</strong> Statistics and Analytics</p>
           <p class="meta"><strong>Expected Graduation:</strong> 2028</p>
@@ -335,8 +347,38 @@
     </div>
   </section>
 
-  <!-- ===================== INTERNS ===================== -->
+  <!-- ===================== UNDERGRADUATE STUDENTS ===================== -->
   <section class="section">
+    <div class="wrap">
+      <h2 class="section-title" id="undergrads">Undergraduate Students</h2>
+
+      <div class="grid grid-3 masters-grid">
+
+        <article class="card reveal">
+          <img class="photo" src="assets/team/sanjay.jpg" alt="Sanjay Shreeyans Javangula"
+               style="object-position: center top;"
+               data-fallback="assets/img/placeholder-person.svg">
+          <h3>Sanjay Shreeyans Javangula</h3>
+          <p class="meta"><strong>Position:</strong> Undergraduate Research Assistant</p>
+          <p class="meta"><strong>Major:</strong> Computer Science</p>
+          <p class="meta"><strong>Expected Graduation:</strong> 2030</p>
+          <p class="meta"><strong>Email:</strong> sjavangula [at] uark [dot] edu</p>
+          <h4>Research Interests</h4>
+          <ul><li>Data Science</li><li>Machine Learning</li><li>Genomic Prediction</li>
+              <li>Computer Vision</li><li>Speech and Language AI</li><li>AI for Healthcare and Accessibility</li></ul>
+          <h4>Education</h4>
+          <div class="edu"><div>B.S. in Computer Science — University of Arkansas</div></div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/sanjay-shreeyans-javangula/" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM10 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.78 2.5 4.78 5.75V21H22v-5.9c0-1.4-.03-3.2-2-3.2-2 0-2.3 1.5-2.3 3.1V21h-4z"/></svg></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INTERNS ===================== -->
+  <section class="section alt">
     <div class="wrap">
       <h2 class="section-title" id="interns">Interns</h2>
       <p class="lead" style="color:var(--muted);">No current interns — check back soon or <a href="/contact">get in touch</a> if you're interested.</p>
@@ -344,7 +386,7 @@
   </section>
 
   <!-- ===================== ALUMNI ===================== -->
-  <section class="section alt">
+  <section class="section">
     <div class="wrap">
       <h2 class="section-title" id="alumni">Alumni &amp; Career Paths</h2>
       <p style="max-width:780px;">
@@ -356,7 +398,7 @@
 
         <article class="card reveal">
           <img class="photo" src="assets/team/melina.jpg" alt="Melina Prado"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Melina Prado</h3>
           <p class="eyebrow">Melina's Career Transition</p>
           <ul class="timeline">
@@ -372,7 +414,7 @@
 
         <article class="card reveal">
           <img class="photo" src="assets/team/igor.jpg" alt="Igor K. Fernandes"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Igor K. Fernandes</h3>
           <p class="eyebrow">Igor's Career Transition</p>
           <ul class="timeline">
@@ -390,7 +432,7 @@
 
         <article class="card reveal">
           <img class="photo" src="assets/team/matthew.jpg" alt="Matthew Murphy"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Matthew Murphy</h3>
           <p class="eyebrow">Matthew's Career Transition</p>
           <ul class="timeline">
@@ -408,7 +450,7 @@
 
         <article class="card reveal">
           <img class="photo" src="assets/team/ashmita.jpg" alt="Ashmita Upadhyay"
-               onerror="this.src='assets/img/placeholder-person.svg'">
+               data-fallback="assets/img/placeholder-person.svg">
           <h3>Ashmita Upadhyay</h3>
           <p class="eyebrow">Ashmita's Career Transition</p>
           <ul class="timeline">
@@ -435,7 +477,7 @@
              Arkansas Division of Agriculture.</p>
         </div>
         <div>
-          <h5>Explore</h5>
+          <h2 class="footer-h">Explore</h2>
           <ul>
             <li><a href="/about">About</a></li>
             <li><a href="/our-team">Team</a></li>
@@ -446,7 +488,7 @@
           </ul>
         </div>
         <div>
-          <h5>Contact</h5>
+          <h2 class="footer-h">Contact</h2>
           <ul>
             <li>samuelbf [at] uark [dot] edu</li>
             <li>479-575-5677</li>
@@ -465,8 +507,8 @@
   <!-- ===================== SEARCH OVERLAY ===================== -->
   <div id="search-overlay" role="dialog" aria-modal="true" aria-label="Search">
     <div class="search-box">
-      <input type="search" id="search-input" placeholder="Search…" autocomplete="off" spellcheck="false">
-      <button class="search-close" aria-label="Close search"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+      <input type="search" id="search-input" aria-label="Search this site" placeholder="Search…" autocomplete="off" spellcheck="false">
+      <button class="search-close" type="button" aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       <p class="search-hint">Type to search · <kbd>Esc</kbd> to close · <kbd>⌘K</kbd> to open anywhere</p>
       <div id="search-results"></div>
     </div>

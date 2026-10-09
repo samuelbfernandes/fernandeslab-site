@@ -55,7 +55,7 @@
   --gold:       #b9821f;
   --ink:        #15211f;
   --muted:      #566561;
-  --faint:      #80908c;
+  --faint:      #5f6f6b;   /* darkened from #80908c for WCAG AA (4.9:1 on --bg-soft) */
   --news:       #c0392b;
   --link:       #126e57;
   --line:       #e6eceb;
@@ -88,6 +88,10 @@ img { max-width: 100%; display: block; }
 a { color: var(--link); text-underline-offset: 3px; }
 h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing: -.01em; }
 ::selection { background: rgba(46,168,143,.22); }
+
+/* Visible keyboard focus everywhere (mouse clicks don't trigger it) */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+#search-input:focus-visible { outline: none; }
 
 .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 22px; }
 
@@ -516,7 +520,7 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 .site-footer { background: var(--brand-deep); color: #b8d4ca; padding: 56px 0 40px; font-size: .92rem; }
 .site-footer .cols { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 36px; margin-bottom: 32px; }
 .site-footer .brand { color: #fff; margin-bottom: 12px; }
-.site-footer h5 { color: #fff; font-family: var(--display); font-size: .82rem; text-transform: uppercase; letter-spacing: .1em; margin: 0 0 12px; }
+.site-footer h5, .site-footer .footer-h { color: #fff; font-family: var(--display); font-size: .82rem; text-transform: uppercase; letter-spacing: .1em; margin: 0 0 12px; }
 .site-footer a { color: #d7ece4; text-decoration: none; }
 .site-footer a:hover { color: #fff; text-decoration: underline; }
 .site-footer ul { list-style: none; padding: 0; margin: 0; }
@@ -581,6 +585,18 @@ h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; letter-spacing:
 }
 @media (max-width: 520px) {
   .features, .stats { grid-template-columns: 1fr; }
+}
+
+/* No-JS fallback: the hamburger, theme and search buttons need JavaScript, so
+   hide them and show the navigation inline instead (html.js is set by the
+   inline script in <head>). */
+:root:not(.js) .nav-toggle,
+:root:not(.js) .theme-toggle,
+:root:not(.js) .search-toggle { display: none; }
+@media (max-width: 820px) {
+  :root:not(.js) .site-header { position: static; }
+  :root:not(.js) .site-header .wrap { height: auto; flex-wrap: wrap; padding-top: 6px; padding-bottom: 6px; }
+  :root:not(.js) .nav { display: flex; position: static; width: 100%; max-height: none; box-shadow: none; border: 0; }
 }
 
 /* ===========================================================================

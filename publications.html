@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta charset="UTF-8">
+  <!-- CSP: the sha256 below is the hash of the inline theme script that follows. If you edit that
+       script, recompute the hash (see CLAUDE.md) or the theme toggle will stop applying on load. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-HCuTkR8s8bBE5jB1+eptmAUnOb1/ojIguyVk0SI0Gu8=' https://*.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://*.googletagmanager.com https://*.google-analytics.com; connect-src 'self' https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-src 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <script>(function(){var d=document.documentElement;d.className+=" js";try{if(localStorage.getItem('theme')==='light')d.setAttribute('data-theme','light');}catch(e){}})();</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Publications — FernandesLAB</title>
   <meta name="description" content="Recent and selected publications from the Fernandes Lab — genomic prediction, GWAS, machine learning, and quantitative genetics.">
+  <link rel="canonical" href="https://fernandeslab.org/publications">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="FernandesLAB">
+  <meta property="og:title" content="Publications — FernandesLAB">
+  <meta property="og:description" content="Recent and selected publications from the Fernandes Lab — genomic prediction, GWAS, machine learning, and quantitative genetics.">
+  <meta property="og:url" content="https://fernandeslab.org/publications">
+  <meta name="twitter:card" content="summary">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
@@ -15,14 +26,14 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Google Analytics GA4 — replace G-V5YJ4Q3752 with your Measurement ID from analytics.google.com -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5YJ4Q3752"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-V5YJ4Q3752');</script>
+  <script src="/assets/js/analytics.js"></script>
 </head>
 <body>
 
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/"><span class="logo"><img class="logo-dark" src="assets/img/logo_white_transparent.png" alt="FernandesLAB"><img class="logo-light" src="assets/img/logo_gray_transparent.png" alt="FernandesLAB"></span><span class="brand-text">FernandesLAB</span></a>
-      <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
       <button class="search-toggle" type="button" aria-label="Search" title="Search (⌘K)">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35"/></svg>
       </button>
@@ -30,7 +41,7 @@
         <svg class="ic-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.6M12 18.9v2.6M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M2.5 12h2.6M18.9 12h2.6M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/></svg>
         <svg class="ic-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8z"/></svg>
       </button>
-      <nav class="nav">
+      <nav class="nav" id="site-nav" aria-label="Main">
         <div class="nav-item">
           <a href="/">Home</a>
           <div class="submenu">
@@ -56,6 +67,7 @@
             <a href="/our-team#staff">Staff</a>
             <a href="/our-team#phd">PhD Students</a>
             <a href="/our-team#masters">Master's Students</a>
+            <a href="/our-team#undergrads">Undergraduate Students</a>
             <a href="/our-team#interns">Interns</a>
             <a href="/our-team#alumni">Alumni</a>
           </div>
@@ -101,7 +113,7 @@
       <div class="stats reveal" id="metrics">
         <div class="stat"><div class="num" id="m-citations">1,000<span class="gold">+</span></div><div class="lbl">Citations</div></div>
         <div class="stat"><div class="num" id="m-hindex">15</div><div class="lbl">h-index</div></div>
-        <div class="stat"><div class="num" id="m-i10">17</div><div class="lbl">i10-index</div></div>
+        <div class="stat"><div class="num" id="m-i10">20</div><div class="lbl">i10-index</div></div>
         <div class="stat"><div class="num">40<span class="gold">+</span></div><div class="lbl">Publications</div></div>
       </div>
       <p class="lead reveal" style="text-align:center;margin-top:26px;">
@@ -116,6 +128,7 @@
     <div class="wrap">
       <h2 class="section-title" id="recent">Recent publications</h2>
       <p class="lead" style="margin-bottom:10px;">A selection of recent peer-reviewed work — full citations and DOIs linked.</p>
+      <p style="margin:0 0 10px;font-size:.95rem;color:var(--muted);">The list includes collaborative statistical-consulting work alongside the lab's core research in quantitative genetics and predictive breeding. Conference abstracts are not listed.</p>
       <p id="pub-updated" style="margin:0 0 30px;font-size:.92rem;color:var(--faint);display:none;"></p>
 
       <div id="pub-list">
@@ -202,7 +215,7 @@
              Arkansas Division of Agriculture.</p>
         </div>
         <div>
-          <h5>Explore</h5>
+          <h2 class="footer-h">Explore</h2>
           <ul>
             <li><a href="/about">About</a></li>
             <li><a href="/our-team">Team</a></li>
@@ -213,7 +226,7 @@
           </ul>
         </div>
         <div>
-          <h5>Contact</h5>
+          <h2 class="footer-h">Contact</h2>
           <ul>
             <li>samuelbf [at] uark [dot] edu</li>
             <li>479-575-5677</li>
@@ -230,63 +243,15 @@
 
   <script src="assets/js/main.js"></script>
 
-  <!-- Render the publications list from assets/publications.json, which a
-       scheduled GitHub Action keeps in sync with Google Scholar. If the file
-       is missing or empty, the static list above is shown instead. -->
-  <script>
-  (function () {
-    var listEl = document.getElementById('pub-list');
-    if (!listEl || !window.fetch) return;
-
-    function esc(s) {
-      return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
-        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-      });
-    }
-    function setNum(id, v) {
-      var el = document.getElementById(id);
-      if (el && v != null && !isNaN(v)) el.textContent = Number(v).toLocaleString();
-    }
-
-    fetch('assets/publications.json', { cache: 'no-store' })
-      .then(function (r) { if (!r.ok) throw new Error('no json'); return r.json(); })
-      .then(function (data) {
-        if (!data || !Array.isArray(data.publications) || !data.publications.length) return;
-
-        var pubs = data.publications.slice().sort(function (a, b) {
-          return (b.year || 0) - (a.year || 0);
-        });
-        listEl.innerHTML = pubs.map(function (p) {
-          var url = p.url || data.scholar_url || '#';
-          var meta = [
-            p.authors ? esc(p.authors) : '',
-            p.venue ? '<em>' + esc(p.venue) + '</em>' : '',
-            p.year || ''
-          ].filter(Boolean).join(' · ');
-          return '<div class="pub reveal in"><a href="' + esc(url) + '">' +
-                 esc(p.title) + '</a><p class="authors">' + meta + '</p></div>';
-        }).join('');
-
-        if (data.metrics) {
-          setNum('m-citations', data.metrics.citations);
-          setNum('m-hindex', data.metrics.h_index);
-          setNum('m-i10', data.metrics.i10_index);
-        }
-
-        var note = document.getElementById('pub-updated');
-        if (note && data.updated) {
-          note.textContent = 'Synced from Google Scholar on ' + data.updated + '.';
-          note.style.display = 'block';
-        }
-      })
-      .catch(function () { /* keep the built-in static list */ });
-  })();
-  </script>
+  <!-- Renders the publications list from assets/publications.json (kept in sync with Google
+       Scholar by a scheduled GitHub Action). If the file is missing or malformed, the static
+       list above is shown instead. -->
+  <script src="/assets/js/publications.js"></script>
   <!-- ===================== SEARCH OVERLAY ===================== -->
   <div id="search-overlay" role="dialog" aria-modal="true" aria-label="Search">
     <div class="search-box">
-      <input type="search" id="search-input" placeholder="Search…" autocomplete="off" spellcheck="false">
-      <button class="search-close" aria-label="Close search"><svg viewBox="0 0 24 24"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+      <input type="search" id="search-input" aria-label="Search this site" placeholder="Search…" autocomplete="off" spellcheck="false">
+      <button class="search-close" type="button" aria-label="Close search"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
       <p class="search-hint">Type to search · <kbd>Esc</kbd> to close · <kbd>⌘K</kbd> to open anywhere</p>
       <div id="search-results"></div>
     </div>

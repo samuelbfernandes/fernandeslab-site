@@ -15,13 +15,18 @@ frameworks, just HTML + one CSS file. Designed to be edited by hand or with an A
 ├── publications.html   Citation metrics + recent publications
 ├── contact.html        Contact details only (no form)
 ├── 404.html            Not-found page
+├── robots.txt, sitemap.xml  SEO — add new pages to sitemap.xml
 ├── CNAME               Custom domain (fernandeslab.org) — used by GitHub Pages
 ├── .nojekyll           Tells GitHub Pages to serve files as-is
 ├── .github/workflows/  Scheduled Google Scholar → publications.json updater
 ├── scripts/            update_publications.py (Scholar fetcher)
 └── assets/
     ├── css/style.css   ALL styling (dark theme). Colors live in the :root block at the top.
-    ├── js/main.js      Mobile menu toggle, theme toggle, scroll reveal, sticky-header shadow
+    ├── js/main.js      Mobile menu toggle, theme toggle, scroll reveal, sticky-header shadow,
+    │                   missing-photo placeholders (img data-fallback)
+    ├── js/search.js    Site search overlay (static SEARCH_INDEX — update when pages change)
+    ├── js/publications.js  Renders publications.json on publications.html (escapes + http(s)-only links)
+    ├── js/analytics.js Google Analytics bootstrap (Measurement ID)
     ├── img/            logo.svg, ai-net.svg (hero motif), news/crop images, placeholders
     ├── publications.json  Publications data rendered by publications.html (auto-updated)
     └── team/           Team member photos (filename = first name)
@@ -42,7 +47,9 @@ Change them once and the whole site updates.
 **Add or edit a team member** — open `our-team.html`, copy an existing
 `<article class="person">` (or `<article class="card">` for the grid sections),
 and update the text. Put their photo in `assets/team/` and point the `src` at it.
-If a photo is missing, a placeholder silhouette shows automatically.
+If a photo is missing, a placeholder silhouette shows automatically — keep the
+`data-fallback="assets/img/placeholder-person.svg"` attribute on the `<img>` (do **not** use inline
+`onerror=` handlers; the Content-Security-Policy blocks them).
 
 **Add a publication** — in `publications.html`, copy a `<div class="pub">` block and set
 the title `href` to the paper's DOI/URL and update the authors line. (Usually unnecessary —
@@ -95,9 +102,24 @@ hand-written list baked into `publications.html`.
 - **Change author / count:** edit `SCHOLAR_ID` (currently `aR0shJYAAAAJ`) or `MAX_PUBS`
   in the workflow's env, or run locally:
   ```bash
-  pip install scholarly requests
+  pip install scholarly requests "bibtexparser<2"
   SERPAPI_KEY=... python scripts/update_publications.py   # key optional
   ```
+
+## Security conventions
+
+- **Content-Security-Policy** is set by a `<meta http-equiv>` tag in every page's `<head>`. It allows
+  only same-origin scripts, Google Fonts, and Google Analytics. **No inline `<script>` or `on…=`
+  attributes** — put code in `assets/js/`. The one exception is the tiny theme script at the top of
+  `<head>`, allowed by its `sha256-…` hash. If you change that script, recompute the hash and update
+  it in every page:
+  ```bash
+  python3 -c "import hashlib,base64,sys;print(base64.b64encode(hashlib.sha256(sys.argv[1].encode()).digest()).decode())" '<exact script text>'
+  ```
+- Links that open a new tab use `target="_blank" rel="noopener noreferrer"`.
+- Never put raw email addresses or `mailto:` links in any file (use `name [at] uark [dot] edu`).
+- Each page has a canonical URL + Open Graph tags; copy them when adding a page.
+- The GitHub Action pins third-party actions to commit SHAs; bump them deliberately.
 
 ## Preview locally
 
