@@ -2,181 +2,223 @@
   "author": "Samuel B. Fernandes",
   "scholar_id": "aR0shJYAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=aR0shJYAAAAJ&hl=en",
-  "updated": "2026-08-17",
-  "source": "scholarly",
+  "updated": "2026-10-09",
+  "source": "serpapi",
   "metrics": {
-    "citations": 1137,
+    "citations": 1189,
     "h_index": 15,
     "i10_index": 20
   },
   "publications": [
     {
-      "title": "Nonlinear genomic selection index accelerates multi-trait crop improvement",
-      "authors": null,
-      "venue": "Nature Communications 17 (1), 1991, 2026",
+      "title": "Reduced tillage and cover crop treatment effects on growing-season greenhouse gas emissions from a soybean-corn rotation on silt-loam soil in southeast Arkansas",
+      "authors": "J Brye, KR Brye, D Della Lunga, L Escalante Ortiz, L Gwaltney, M Daniels, ...",
+      "venue": "All Earth 38 (1), 2728734, 2026",
       "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RYcK_YlVTxYC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:NhqRSupF_l8C"
     },
     {
-      "title": "High‐throughput screen of NPQ in sorghum shows highly polygenic architecture of photoprotection",
-      "authors": null,
-      "venue": "Plant‐Environment Interactions 7 (1), e70114, 2026",
+      "title": "Synergistic maturity group and planting date adaptation sustains irrigated soybean yields under warming",
+      "authors": "EF Elli, C dos Santos, SB Fernandes, M Salmerón, R Battisti, ...",
+      "venue": "Agricultural & Environmental Letters 11 (2), 2026",
       "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:vV6vV6tmYwMC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:CHSYGLWDkRkC"
     },
     {
-      "title": "Modeling genotype‐by‐environment interaction for variety recommendation in tropical wheat",
-      "authors": null,
-      "venue": "Crop Science 66 (3), e70309, 2026",
+      "title": "Improving multi-trait genomic prediction using synthetic traits from hyperspectral data based on co-heritability",
+      "authors": "A Upadhyay, R Azam, M Yuan, S Ivanovic, JN Ferguson, RE Paul, ...",
+      "venue": "Theoretical and Applied Genetics 139 (10), 270, 2026",
       "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:2P1L_qKh6hAC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:xtRiw3GOFMkC"
     },
     {
       "title": "Assessing Malted and Adjunct Rice Potential in Diverse Rice Germplasm through Simulated Enzymatic Hydrolysis",
-      "authors": null,
+      "authors": "BP Guimaraes, H Rani, R Sen, A Jannasch-Sonntag, YJ Wang, ...",
       "venue": "ACS Food Science & Technology, 2026",
       "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:EUQCXRtRnyEC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:EUQCXRtRnyEC"
     },
     {
       "title": "Dissecting genetic variance structure and evaluating genomic prediction models for single-cross hybrids derived from Stiff Stalk and Non-Stiff Stalk maize heterotic groups",
-      "authors": null,
+      "authors": "JC Godoy dos Santos, J Edwards, E Lee, MA Mikel, SB Fernandes, ...",
       "venue": "G3: Genes, Genomes, Genetics, jkag163, 2026",
       "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:35N4QoGY0k4C"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:35N4QoGY0k4C"
     },
     {
       "title": "An efficient strategy for genomic prediction in new locations via enviromic indexing",
-      "authors": null,
+      "authors": "OA Montesinos-López, A Montesinos-López, J Crossa, S Ramos-Pulido, ...",
       "venue": "Discover Plants 3 (1), 272, 2026",
       "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:SeFeTyx0c_EC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:SeFeTyx0c_EC"
+    },
+    {
+      "title": "Modeling genotype‐by‐environment interaction for variety recommendation in tropical wheat",
+      "authors": "JMA Sousa, GM Blasques, AT Condé, AF Silva, JR Eides, RTL Fronza, ...",
+      "venue": "Crop Science 66 (3), e70309, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:2P1L_qKh6hAC"
+    },
+    {
+      "title": "Nonlinear genomic selection index accelerates multi-trait crop improvement",
+      "authors": "J Jesús Cerón-Rojas, OA Montesinos-López, A Montesinos-López, ...",
+      "venue": "Nature Communications 17 (1), 1991, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:RYcK_YlVTxYC"
+    },
+    {
+      "title": "High‐throughput screen of NPQ in sorghum shows highly polygenic architecture of photoprotection",
+      "authors": "RL Vath, SB Fernandes, B Monier, K Głowacka, J Walter, AE Lipka, ...",
+      "venue": "Plant‐Environment Interactions 7 (1), e70114, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:vV6vV6tmYwMC"
     },
     {
       "title": "Optimizing population simulations to accurately parallel empirical data for digital breeding",
-      "authors": null,
+      "authors": "MJ Burns, R Della Coletta, SB Fernandes, MO Bohn, AE Lipka, CN Hirsch",
       "venue": "Crop Science 66 (1), e70247, 2026",
       "year": 2026,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:ns9cj8rnVeAC"
-    },
-    {
-      "title": "Rice cultivar tolerance to preemergence-and postemergence-applied fluridone",
-      "authors": null,
-      "venue": "Weed Technology 39, e32, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:JV2RwH3_ST0C"
-    },
-    {
-      "title": "Biochar type and rate effects on greenhouse gas emissions from furrow‐irrigated rice",
-      "authors": null,
-      "venue": "Agrosystems, Geosciences & Environment 8 (3), e70186, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:lSLTfruPkqcC"
-    },
-    {
-      "title": "Short‐term tillage effects on greenhouse gas emissions and global warming potential from soybean in southeast Arkansas",
-      "authors": null,
-      "venue": "Agrosystems, Geosciences & Environment 8 (4), e70274, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RGFaLdJalmkC"
-    },
-    {
-      "title": "Impact of Cover Crops on Furrow-Irrigated Rice and Palmer amaranth (Amaranthus palmeri) Emergence",
-      "authors": null,
-      "venue": "Weed Technology, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:M3NEmzRMIkIC"
-    },
-    {
-      "title": "Fluridone use in furrow-irrigated rice: Palmer amaranth control and crop response",
-      "authors": null,
-      "venue": "Weed Technology 39, e108, 2025",
-      "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:O3NaXMp0MMsC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:ns9cj8rnVeAC"
     },
     {
       "title": "Genomic prediction and association mapping of early season flood tolerance in soybean",
-      "authors": null,
+      "authors": "CC Vieira, C Wu, D Harrison, R Marmo, L Florez‐Palacios, A Acuna, ...",
       "venue": "The Plant Genome 18 (4), e70128, 2025",
       "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:J_g5lzvAfSwC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:J_g5lzvAfSwC"
+    },
+    {
+      "title": "Short‐term tillage effects on greenhouse gas emissions and global warming potential from soybean in southeast Arkansas",
+      "authors": "L Gwaltney, KR Brye, D Della Lunga, JB Brye, TL Roberts, SB Fernandes, ...",
+      "venue": "Agrosystems, Geosciences & Environment 8 (4), e70274, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:RGFaLdJalmkC"
+    },
+    {
+      "title": "Biochar type and rate effects on greenhouse gas emissions from furrow‐irrigated rice",
+      "authors": "L Gwaltney, KR Brye, DD Lunga, TL Roberts, SB Fernandes, MB Daniels",
+      "venue": "Agrosystems, Geosciences & Environment 8 (3), e70186, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:lSLTfruPkqcC"
     },
     {
       "title": "Improving multi-trait genomic prediction efficiency through the incorporation of synthetic traits selected based on co-heritability",
-      "authors": null,
+      "authors": "A Upadhyay, R Azam, M Yuan, S Ivanovic, JN Ferguson, RE Paul, ...",
       "venue": "bioRxiv, 2025.06. 23.661178, 2025",
       "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:hMod-77fHWUC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:hMod-77fHWUC"
+    },
+    {
+      "title": "Fluridone use in furrow-irrigated rice: Palmer amaranth control and crop response",
+      "authors": "MCCR Souza, JK Norsworthy, P Carvalho-Moore, A Godar, ...",
+      "venue": "Weed Technology 39, e108, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:O3NaXMp0MMsC"
     },
     {
       "title": "Effect of crop density on Palmer amaranth (Amaranthus palmeri) emergence and weed density interference potential in a furrow-irrigated rice system",
-      "authors": null,
+      "authors": "TA King, JK Norsworthy, TR Butts, SB Fernandes, GL Drescher",
       "venue": "Weed Science 73 (1), e95, 2025",
       "year": 2025,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:GnPB-g6toBAC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:GnPB-g6toBAC"
     },
     {
-      "title": "Using machine learning to combine genetic and environmental data for maize grain yield predictions across multi-environment trials",
-      "authors": null,
-      "venue": "Theoretical and Applied Genetics 137 (8), 189, 2024",
-      "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:hC7cP41nSMkC"
+      "title": "Rice cultivar tolerance to preemergence-and postemergence-applied fluridone",
+      "authors": "MCCR Souza, JK Norsworthy, P Carvalho-Moore, A Godar, ...",
+      "venue": "Weed Technology 39, e32, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:JV2RwH3_ST0C"
     },
     {
-      "title": "Genome-wide association insights into the genomic regions controlling vegetative and oil production traits in Acrocomia aculeata",
-      "authors": null,
-      "venue": "BMC Plant Biology 24 (1), 1125, 2024",
-      "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:k_IJM867U9cC"
-    },
-    {
-      "title": "Effect of Palmer amaranth (Amaranthus palmeri) Time of Emergence on Furrow-Irrigated Rice Yields and Weed Seed Production",
-      "authors": null,
-      "venue": "Weed Science, 1-24, 2024",
-      "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:isC4tDSrTZIC"
-    },
-    {
-      "title": "Realized genetic gain with reciprocal recurrent selection in a Eucalyptus breeding program",
-      "authors": null,
-      "venue": "Tree Genetics & Genomes 20 (47), 2024",
-      "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:j3f4tGmQtD8C"
-    },
-    {
-      "title": "Beat the heat: Breeding, genomics, and gene editing for high nighttime temperature tolerance in rice",
-      "authors": null,
-      "venue": "Current Opinion in Plant Biology 82, 102659, 2024",
-      "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:r0BpntZqJG4C"
-    },
-    {
-      "title": "Near-surface soil chemical properties as affected by cover crops over time in the Lower Mississippi River Valley.",
-      "authors": null,
-      "venue": null,
-      "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:4JMBOYKVnBMC"
+      "title": "Impact of Cover Crops on Furrow-Irrigated Rice and Palmer amaranth (Amaranthus palmeri) Emergence",
+      "authors": "TA King, JK Norsworthy, TR Butts, LT Barber, GL Drescher, SB Fernandes, ...",
+      "venue": "Weed Technology, 2025",
+      "year": 2025,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:M3NEmzRMIkIC"
     },
     {
       "title": "Assessing Soybean Cultivar Resistance to Target Spot Using a Detached Leaf Assay",
-      "authors": null,
+      "authors": "R Wolf, R Holland, JA Rojas, S Fernandes, I Fernandes, JC Rupe",
       "venue": "PhytoFrontiers™ 4 (4), 728-733, 2024",
       "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:_Qo2XoVZTnwC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:_Qo2XoVZTnwC"
+    },
+    {
+      "title": "Effect of Palmer amaranth (Amaranthus palmeri) Time of Emergence on Furrow-Irrigated Rice Yields and Weed Seed Production",
+      "authors": "TA King, JK Norsworthy, TR Butts, SB Fernandes, GL Drescher, TH Avent",
+      "venue": "Weed Science, 1-24, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:isC4tDSrTZIC"
+    },
+    {
+      "title": "Beat the heat: Breeding, genomics, and gene editing for high nighttime temperature tolerance in rice",
+      "authors": "V Srivastava, C De Guzman, SB Fernandes",
+      "venue": "Current Opinion in Plant Biology 82, 102659, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:r0BpntZqJG4C"
+    },
+    {
+      "title": "Genome-wide association insights into the genomic regions controlling vegetative and oil production traits in Acrocomia aculeata",
+      "authors": "EGO Couto, JA Morales-Marroquín, A Alves-Pereira, SB Fernandes, ...",
+      "venue": "BMC Plant Biology 24 (1), 1125, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:k_IJM867U9cC"
+    },
+    {
+      "title": "Realized genetic gain with reciprocal recurrent selection in a Eucalyptus breeding program",
+      "authors": "SFS Chaves, LAS Dias, RS Alves, FM Ferreira, MS Araújo, MDV Resende, ...",
+      "venue": "Tree Genetics & Genomes 20 (47), 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:j3f4tGmQtD8C"
     },
     {
       "title": "The Use of Antimicrobial Washes to Inactivate Shiga Toxin-Producing Escherichia coli from In-Shell Pecans and Wash Water Contaminated by Different Inoculation Routes",
-      "authors": null,
+      "authors": "EW Ramsay, C Bardsley, K Desiree, P Rubinelli, S Fernandes, JC Acuff",
       "venue": "Journal of Food Protection 87 (9), 100332, 2024",
       "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:RHpTSmoSYBkC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:RHpTSmoSYBkC"
+    },
+    {
+      "title": "Using machine learning to combine genetic and environmental data for maize grain yield predictions across multi-environment trials",
+      "authors": "IK Fernandes, CC Vieira, KOG Dias, SB Fernandes",
+      "venue": "Theoretical and Applied Genetics 137 (8), 189, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:hC7cP41nSMkC"
     },
     {
       "title": "Bayesian Optimization for Crop Genetics with Scalable Probabilistic Models",
-      "authors": null,
+      "authors": "R Azam, ST Truong, ADB Leakey, A Lipka, M El-Kebir, S Koyejo",
       "venue": "Sixth Symposium on Advances in Approximate Bayesian Inference-Archival Track, 2024",
       "year": 2024,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&citation_for_view=aR0shJYAAAAJ:mB3voiENLucC"
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:mB3voiENLucC"
+    },
+    {
+      "title": "Analysis of Early Berry Color and End Anthocyanin Content in Blackberry",
+      "authors": "K Lust-Moore, M Worthington, R Threlfall, S Lafontaine, S Fernandes, ...",
+      "venue": "HORTSCIENCE 59 (2), SR12-SR13, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:g5m5HwL7SMYC"
+    },
+    {
+      "title": "Near-surface soil chemical properties as affected by cover crops over time in the Lower Mississippi River Valley",
+      "authors": "C Fanning, KR Brye, MB Daniels, T Roberts, SB Fernandes, L Wood",
+      "venue": "Agricultural Sciences 15 (9), 1035, 2024",
+      "year": 2024,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+      "title": "A novel strategy to predict clonal composites by jointly modeling spatial variation and genetic competition",
+      "authors": "FM Ferreira, SFS Chaves, LL Bhering, RS Alves, EK Takahashi, JE Sousa, ...",
+      "venue": "Forest Ecology and Management 548, 121393, 2023",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:ZeXyd9-uunAC"
+    },
+    {
+      "title": "Linking genetic and environmental factors through marker effect networks to understand trait plasticity",
+      "authors": "R Della Coletta, SE Liese, SB Fernandes, MA Mikel, MO Bohn, AE Lipka, ...",
+      "venue": "Genetics 224 (4), iyad103, 2023",
+      "year": 2023,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:4DMP91E08xMC"
     }
   ]
 }
