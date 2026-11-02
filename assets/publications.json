@@ -2,12 +2,12 @@
   "author": "Samuel B. Fernandes",
   "scholar_id": "aR0shJYAAAAJ",
   "scholar_url": "https://scholar.google.com/citations?user=aR0shJYAAAAJ&hl=en",
-  "updated": "2026-10-26",
+  "updated": "2026-11-02",
   "source": "serpapi",
   "metrics": {
-    "citations": 1205,
+    "citations": 1208,
     "h_index": 16,
-    "i10_index": 20
+    "i10_index": 21
   },
   "publications": [
     {
@@ -30,6 +30,13 @@
       "venue": "Theoretical and Applied Genetics 139 (10), 270, 2026",
       "year": 2026,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:xtRiw3GOFMkC"
+    },
+    {
+      "title": "Biochar effects on greenhouse gas emissions from a furrow‐irrigated cotton–corn rotation on silt‐loam soil in southeast Arkansas",
+      "authors": "J Brye, KR Brye, D Della Lunga, L Ortiz, L Gwaltney, M Daniels, T Roberts, ...",
+      "venue": "Soil Science Society of America Journal 90 (5), e70377, 2026",
+      "year": 2026,
+      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:1sJd4Hv_s6UC"
     },
     {
       "title": "Assessing Malted and Adjunct Rice Potential in Diverse Rice Germplasm through Simulated Enzymatic Hydrolysis",
@@ -212,13 +219,6 @@
       "venue": "Forest Ecology and Management 548, 121393, 2023",
       "year": 2023,
       "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:ZeXyd9-uunAC"
-    },
-    {
-      "title": "Linking genetic and environmental factors through marker effect networks to understand trait plasticity",
-      "authors": "R Della Coletta, SE Liese, SB Fernandes, MA Mikel, MO Bohn, AE Lipka, ...",
-      "venue": "Genetics 224 (4), iyad103, 2023",
-      "year": 2023,
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=aR0shJYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=aR0shJYAAAAJ:4DMP91E08xMC"
     }
   ]
 }
